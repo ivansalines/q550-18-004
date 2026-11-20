@@ -1,0 +1,10 @@
+{
+  "README.md": "b61852554239f2a1db8077604f6e1e317769702cd7322acf24b26e71a939d51f",
+  "v18_48b_server.log": "3cdb73d5c39c8a8bd6431c8f6e0d28b461ff43ce0bc811adf967ba6916aa8438",
+  "run_on_server.sh": "4600e953e8c5515c4d24b66f69130ff1e681f9a57e7a0b11fde2495962e510be",
+  "scripts/run_audit.py": "3a5af7a5b2def979b0e2a5492976896f10825a2dd80c63c1f1ec7b1d72d3f10e",
+  "scripts/pack_sendback.py": "a469848124fbeea37b9a3f945e4729840e7bea22763a69b23f52ef8808674200",
+  "results/transported_kappa_sensitivity.csv": "8c895a74ea6187e800029f5b7d9cfaf994772d5af8ffd247f7a44fd6e981e18b",
+  "results/case_integrations.csv": "918a6b742660afb6da451855073eee4b87e4ba5b5315f7c669ec972625abbdb3",
+  "results/report.json": "66495985d5de01639b0f9009a0ced3e966cfb54a5319fb2ca83654a05d9e5af1"
+}

@@ -1,0 +1,46 @@
+{
+  "version": "v18.48b",
+  "status": "ORIGINAL_Q550_NUMERICAL_TRANSPORTED_KAPPA_AUDIT",
+  "baseline_kappa": 0.16666666666666666,
+  "autonomous_kappa": 0.16659961041764054,
+  "delta_kappa": -6.705624902611507e-05,
+  "original_case_count": 12,
+  "snapshot_count": 36,
+  "rows": 216,
+  "integrations": 24,
+  "restart_enabled": true,
+  "original_verified_dependencies": {
+    "audit": {
+      "path": "/root/elab1/hysteresis/test_support_mobius_monodromy_audit.py",
+      "sha256": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864"
+    },
+    "support": {
+      "path": "/root/elab1/hysteresis/test_support_q550_support_ode_interval_residual_pilot_v1.py",
+      "sha256": "5b5938e7920b2ecd242fb8f416a18c7c47ae10aa06e027e0727f15e284c98c61"
+    },
+    "tube": {
+      "path": "/root/elab1/hysteresis/test_support_q550_exact_nonlinear_local_tube_v2_1.py",
+      "sha256": "a9d1ec342c268da8e721dc641cab8cc4cf39f69d821dfd4191163833ba04e881"
+    },
+    "orbit": {
+      "path": "/root/elab1/hysteresis/q_550_orbit.npz",
+      "sha256": "537f6326b841f36f963be3736b1034724041994a07f9ac9e5377de6c99048f34"
+    },
+    "events": {
+      "path": "/root/elab1/hysteresis/inputs/presence_metrology_events.csv",
+      "sha256": "bc18df957b9dc311978584132b9cf0690e30a9576a306bda6f189a4ba33df892"
+    },
+    "shared": {
+      "path": "/root/elab1/hysteresis/support_q550_shared_generator_arc_cocycle_cell49_v1_pilot.json",
+      "sha256": "be9ad38fc157073efeb95890588ead7ff47e2a8a7e381bba1cdea3d5682567aa"
+    }
+  },
+  "archived_parent_authority": {
+    "parent_sha256": "08fb4df3ad76cf2cf3f480c26967d9ca1993b82b2ceabbb5f7053216dda9afb4",
+    "verified_members": 166
+  },
+  "scope": "Shared original 36 snapshot times and original geometric directions. Optional geometric RHS restarts from identical seeds; restart mode retains original directions, not a newly propagated variational frame.",
+  "limitations": "Binary64 finite differences; numerical Hessian, not exact; original direction construction held fixed. No full parameter-dependent tangent transport, analytic RHS decomposition, or interval certificate.",
+  "fixed_median_hessian_relative": 0.003909588860531744,
+  "restart_median_hessian_relative": 0.0038405506967267274
+}
