@@ -1,0 +1,5 @@
+Python >=3.10 (Python 3.13 preferred)
+numpy
+scipy
+matplotlib
+Original Q550 SHA-pinned dependencies: required only on original server; verified by model(...)

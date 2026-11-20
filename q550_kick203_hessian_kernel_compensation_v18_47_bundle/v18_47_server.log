@@ -1,0 +1,49 @@
+test_accel_and_polarization_not_same_kernel (test_kernel_compensation_v18_47.KernelTests.test_accel_and_polarization_not_same_kernel) ... ok
+test_accel_radii (test_kernel_compensation_v18_47.KernelTests.test_accel_radii) ... ok
+test_acceleration_identity (test_kernel_compensation_v18_47.KernelTests.test_acceleration_identity) ... ok
+test_basis_columns (test_kernel_compensation_v18_47.KernelTests.test_basis_columns) ... ok
+test_component_shares (test_kernel_compensation_v18_47.KernelTests.test_component_shares) ... ok
+test_historic_mixed_agrees (test_kernel_compensation_v18_47.KernelTests.test_historic_mixed_agrees) ... ok
+test_mixed_compensated (test_kernel_compensation_v18_47.KernelTests.test_mixed_compensated) ... ok
+test_mixed_reverse (test_kernel_compensation_v18_47.KernelTests.test_mixed_reverse) ... ok
+test_no_zero_step (test_kernel_compensation_v18_47.KernelTests.test_no_zero_step) ... ok
+test_polarization (test_kernel_compensation_v18_47.KernelTests.test_polarization) ... ok
+test_reference_not_ground_truth (test_kernel_compensation_v18_47.KernelTests.test_reference_not_ground_truth) ... ok
+test_three_radii (test_kernel_compensation_v18_47.KernelTests.test_three_radii) ... ok
+test_zero_hessian (test_kernel_compensation_v18_47.KernelTests.test_zero_hessian) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.219s
+
+OK
+{
+  "version": "v18.47",
+  "status": "PREFLIGHT_ONLY_PARENT_V18_46_AUTHENTICATED",
+  "parent_sha256": "08fb4df3ad76cf2cf3f480c26967d9ca1993b82b2ceabbb5f7053216dda9afb4",
+  "verified_members": 166,
+  "parent_original_integrations": 25,
+  "parent_snapshots": 36,
+  "parent_fixed_r": 0.008,
+  "parent_median_jac_disagreement_at_fixed_r": 0.005091163223386045,
+  "checkpoint_tiers": [
+    "standard",
+    "tight"
+  ],
+  "no_new_original_integrations": true
+}
+V18_47 phasecov_d2_lam-1.00_mod+0.00|xi=3.5|branch=0 snapshot_count 3 max_reg 0.00e+00
+V18_47 phasecov_d2_lam-1.00_mod+0.00|xi=3.5|branch=1 snapshot_count 3 max_reg 0.00e+00
+V18_47 phasecov_d2_lam-1.00_mod+0.00|xi=4|branch=0 snapshot_count 3 max_reg 0.00e+00
+V18_47 phasecov_d2_lam-1.00_mod+0.00|xi=4|branch=1 snapshot_count 3 max_reg 0.00e+00
+V18_47 phasecov_d2_lam-1.00_mod+0.00|xi=4.5|branch=0 snapshot_count 3 max_reg 0.00e+00
+V18_47 phasecov_d2_lam-1.00_mod+0.00|xi=4.5|branch=1 snapshot_count 3 max_reg 0.00e+00
+V18_47 phaseblind_d2_lam-1.00_mod+0.00|xi=3.5|branch=0 snapshot_count 3 max_reg 0.00e+00
+V18_47 phaseblind_d2_lam-1.00_mod+0.00|xi=3.5|branch=1 snapshot_count 3 max_reg 0.00e+00
+V18_47 phaseblind_d2_lam-1.00_mod+0.00|xi=4|branch=0 snapshot_count 3 max_reg 0.00e+00
+V18_47 phaseblind_d2_lam-1.00_mod+0.00|xi=4|branch=1 snapshot_count 3 max_reg 0.00e+00
+V18_47 phaseblind_d2_lam-1.00_mod+0.00|xi=4.5|branch=0 snapshot_count 3 max_reg 0.00e+00
+V18_47 phaseblind_d2_lam-1.00_mod+0.00|xi=4.5|branch=1 snapshot_count 3 max_reg 0.00e+00
+ORIGINAL_V18_47_COMPLETED 25 (36, 432, 2160, 24) parent_reg 0.0
+V18_47_PLOTS completed
+V18_47_SHA256 170
+ORIGINAL_V18_47_SENDBACK /root/elab1/hysteresis/q550_kick203_hessian_kernel_compensation_v18_47_sendback.zip

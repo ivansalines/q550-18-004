@@ -1,0 +1,47 @@
+{
+  "version": "v18.47",
+  "status": "ORIGINAL_Q550_HESSIAN_KERNEL_COMPENSATION_COMPLETED",
+  "original_integrations": 25,
+  "original_cases": 12,
+  "original_snapshots": 36,
+  "kernel_vector_rows": 432,
+  "component_budget_rows": 2160,
+  "solver_rows": 24,
+  "original_ode_sha256_verified": true,
+  "source_kappa0_unchanged": true,
+  "parent_sha256": "08fb4df3ad76cf2cf3f480c26967d9ca1993b82b2ceabbb5f7053216dda9afb4",
+  "parent_verified_members": 166,
+  "max_v18_46_vector_regression": 0.0,
+  "max_original_support_fraction": 0.5364707517418283,
+  "no_exact_hessian": true,
+  "no_certified_curvature": true,
+  "no_certified_stiffness": true,
+  "no_material_metric_certified": true,
+  "no_physical_constraint_certified": true,
+  "not_full_precision_RHS": true,
+  "preflight_only": false,
+  "method": {
+    "rhs_h": [
+      0.004,
+      0.008,
+      0.012
+    ],
+    "acceleration_h": [
+      0.001,
+      0.002,
+      0.004
+    ],
+    "focus_components": [
+      0,
+      2,
+      8
+    ],
+    "historic": "16-node 4th-order mixed RHS",
+    "compensated": "same mixed nodes, math.fsum weighted reductions",
+    "transpose": "interchanged floating-point displacement summation order, not independent physics",
+    "polarization": "5-point second directional derivatives of original scalar RHS, bilinear polarization",
+    "acceleration": "differentiate J(y) F(y), subtract J(y)^2 F(y), using pinned original Jacobian and RHS",
+    "reference": "original v18.46 jacobian h=.001 is numerical and NOT ground truth",
+    "caveat": "All methods evaluate binary64 original model; no certified high precision or structural exact Hessian"
+  }
+}
