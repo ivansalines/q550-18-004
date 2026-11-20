@@ -1,0 +1,145 @@
+{
+  "version": "v18.46",
+  "status": "ORIGINAL_Q550_COMPONENT_RICHARDSON_CONSISTENCY_COMPLETED",
+  "original_integrations": 25,
+  "original_cases": 12,
+  "original_snapshots": 36,
+  "rhs_radius_rows": 432,
+  "jac_radius_rows": 288,
+  "rhs_ladder_rows": 288,
+  "jac_ladder_rows": 216,
+  "component_ladder_rows": 2880,
+  "solver_rows": 24,
+  "parent_sha256": "baea62d017d4986cd35a21fd770761bffb2d23e4a170a0b96221185db8a750f3",
+  "parent_verified_members": 156,
+  "max_v18_45_vector_regression": 0.0,
+  "max_within_parent_support_fraction": 0.5364707517418283,
+  "original_ode_sha256_verified": true,
+  "source_kappa0_unchanged": true,
+  "no_symbolic_hessian_claimed": true,
+  "no_certified_hessian": true,
+  "no_certified_second_jet": true,
+  "no_certified_curvature": true,
+  "no_certified_stiffness": true,
+  "no_material_metric_certified": true,
+  "no_physical_constraint_certified": true,
+  "preflight_only": false,
+  "method": {
+    "rhs_radii": [
+      0.001,
+      0.0015,
+      0.002,
+      0.003,
+      0.004,
+      0.006,
+      0.008,
+      0.012,
+      0.016,
+      0.024,
+      0.032,
+      0.048
+    ],
+    "jacobian_targets": [
+      0.000125,
+      0.00025,
+      0.0005,
+      0.001,
+      0.002,
+      0.004,
+      0.008,
+      0.016
+    ],
+    "rhs_ladders": [
+      [
+        0.004,
+        0.002,
+        0.001
+      ],
+      [
+        0.006,
+        0.003,
+        0.0015
+      ],
+      [
+        0.008,
+        0.004,
+        0.002
+      ],
+      [
+        0.012,
+        0.006,
+        0.003
+      ],
+      [
+        0.016,
+        0.008,
+        0.004
+      ],
+      [
+        0.024,
+        0.012,
+        0.006
+      ],
+      [
+        0.032,
+        0.016,
+        0.008
+      ],
+      [
+        0.048,
+        0.024,
+        0.012
+      ]
+    ],
+    "jac_ladders": [
+      [
+        0.0005,
+        0.00025,
+        0.000125
+      ],
+      [
+        0.001,
+        0.0005,
+        0.00025
+      ],
+      [
+        0.002,
+        0.001,
+        0.0005
+      ],
+      [
+        0.004,
+        0.002,
+        0.001
+      ],
+      [
+        0.008,
+        0.004,
+        0.002
+      ],
+      [
+        0.016,
+        0.008,
+        0.004
+      ]
+    ],
+    "nominal_order": 4,
+    "order_identification": "observed successive difference norm ratio; not a convergence theorem",
+    "richardson": "two successive order-4 Richardson estimates compared for consistency",
+    "component_focus": [
+      0,
+      2,
+      8
+    ],
+    "component_errors": "signed and magnitude errors relative to THREE numerical J consensuses",
+    "primary_fixed_h": 0.008,
+    "primary_fixed_ladder": [
+      0.008,
+      0.004,
+      0.002
+    ],
+    "radius_selection": "no selecting best radius using held-out data",
+    "ODE": "original SHA-pinned Q550, same kappa0 and seeds",
+    "caution": "Numerical agreement and Richardson consistency are not exact Hessian, stiffness, material metric or curvature certifications"
+  }
+}

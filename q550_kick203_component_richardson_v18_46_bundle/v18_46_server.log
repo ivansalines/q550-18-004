@@ -1,0 +1,65 @@
+test_component_order_may_differ (test_richardson_v18_46.RichardsonAuditTests.test_component_order_may_differ) ... ok
+test_distinct_radii (test_richardson_v18_46.RichardsonAuditTests.test_distinct_radii) ... ok
+test_error_share_sum (test_richardson_v18_46.RichardsonAuditTests.test_error_share_sum) ... ok
+test_error_share_zero_is_zero (test_richardson_v18_46.RichardsonAuditTests.test_error_share_zero_is_zero) ... ok
+test_exact_fourth_order (test_richardson_v18_46.RichardsonAuditTests.test_exact_fourth_order) ... ok
+test_fourth_order_richardson_vector (test_richardson_v18_46.RichardsonAuditTests.test_fourth_order_richardson_vector) ... ok
+test_jac_ladders (test_richardson_v18_46.RichardsonAuditTests.test_jac_ladders) ... ok
+test_large_cancellation_detected (test_richardson_v18_46.RichardsonAuditTests.test_large_cancellation_detected) ... ok
+test_not_fourth_order (test_richardson_v18_46.RichardsonAuditTests.test_not_fourth_order) ... ok
+test_oscillating_stencil_is_rejected (test_richardson_v18_46.RichardsonAuditTests.test_oscillating_stencil_is_rejected) ... ok
+test_protected_components (test_richardson_v18_46.RichardsonAuditTests.test_protected_components) ... ok
+test_reference_dependence (test_richardson_v18_46.RichardsonAuditTests.test_reference_dependence) ... ok
+test_rhs_ladders (test_richardson_v18_46.RichardsonAuditTests.test_rhs_ladders) ... ok
+test_richardson_not_ground_truth (test_richardson_v18_46.RichardsonAuditTests.test_richardson_not_ground_truth) ... ok
+test_small_differences_flagged (test_richardson_v18_46.RichardsonAuditTests.test_small_differences_flagged) ... ok
+test_three_jac_references (test_richardson_v18_46.RichardsonAuditTests.test_three_jac_references) ... ok
+test_unresolved_identical_vectors (test_richardson_v18_46.RichardsonAuditTests.test_unresolved_identical_vectors) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.431s
+
+OK
+{
+  "version": "v18.46",
+  "status": "PREFLIGHT_ONLY_V18_45_AUTHENTICATED",
+  "parent_sha256": "baea62d017d4986cd35a21fd770761bffb2d23e4a170a0b96221185db8a750f3",
+  "verified_members": 156,
+  "prior_rhs_radii": [
+    0.0015,
+    0.002,
+    0.003,
+    0.004,
+    0.006,
+    0.008,
+    0.012,
+    0.018,
+    0.024,
+    0.036,
+    0.048
+  ],
+  "original_v18_45_snapshots": 36,
+  "original_v18_45_component_rows": 360,
+  "checkpoint_tiers": [
+    "standard",
+    "tight"
+  ],
+  "no_new_original_integrations": true,
+  "no_certified_hessian": true
+}
+V18_46 phasecov_d2_lam-1.00_mod+0.00|xi=3.5|branch=0 snapshots 3 parent_reg 0.00e+00
+V18_46 phasecov_d2_lam-1.00_mod+0.00|xi=3.5|branch=1 snapshots 3 parent_reg 0.00e+00
+V18_46 phasecov_d2_lam-1.00_mod+0.00|xi=4|branch=0 snapshots 3 parent_reg 0.00e+00
+V18_46 phasecov_d2_lam-1.00_mod+0.00|xi=4|branch=1 snapshots 3 parent_reg 0.00e+00
+V18_46 phasecov_d2_lam-1.00_mod+0.00|xi=4.5|branch=0 snapshots 3 parent_reg 0.00e+00
+V18_46 phasecov_d2_lam-1.00_mod+0.00|xi=4.5|branch=1 snapshots 3 parent_reg 0.00e+00
+V18_46 phaseblind_d2_lam-1.00_mod+0.00|xi=3.5|branch=0 snapshots 3 parent_reg 0.00e+00
+V18_46 phaseblind_d2_lam-1.00_mod+0.00|xi=3.5|branch=1 snapshots 3 parent_reg 0.00e+00
+V18_46 phaseblind_d2_lam-1.00_mod+0.00|xi=4|branch=0 snapshots 3 parent_reg 0.00e+00
+V18_46 phaseblind_d2_lam-1.00_mod+0.00|xi=4|branch=1 snapshots 3 parent_reg 0.00e+00
+V18_46 phaseblind_d2_lam-1.00_mod+0.00|xi=4.5|branch=0 snapshots 3 parent_reg 0.00e+00
+V18_46 phaseblind_d2_lam-1.00_mod+0.00|xi=4.5|branch=1 snapshots 3 parent_reg 0.00e+00
+ORIGINAL_V18_46_COMPLETED 25 (36, 432, 288, 288, 216, 2880, 24) parent_reg 0.0
+ORIGINAL_V18_46_PLOTS_COMPLETED
+V18_46_SHA_MANIFEST 166
+ORIGINAL_V18_46_SENDBACK /root/elab1/hysteresis/q550_kick203_component_richardson_v18_46_sendback.zip
