@@ -1,0 +1,348 @@
+{
+  "version": "v18.48",
+  "classification": "NUMERICAL_DIAGNOSTIC_ONLY",
+  "adapter": "/root/elab1/hysteresis/q550_kick203_structural_rhs_hessian_identity_v18_48_bundle/scripts/example_adapter.py",
+  "samples": 4,
+  "components": [
+    "linear",
+    "quadratic"
+  ],
+  "step_sizes": [
+    0.001,
+    0.0003,
+    0.0001,
+    3e-05
+  ],
+  "requested_tolerance": 1e-05,
+  "max_rhs_relative_residual": 0.0,
+  "max_hessian_relative_residual_at_smallest_step": 5.581792169922855e-07,
+  "max_mixed_symmetry_relative_residual_at_smallest_step": 0.0,
+  "largest_cancellation_ratio_at_smallest_step": 1.0000009958899136,
+  "records": [
+    {
+      "sample": 0,
+      "steps": [
+        {
+          "h": 0.001,
+          "rhs_absolute_residual": 0.0,
+          "rhs_relative_residual": 0.0,
+          "hessian_absolute_residual": 1.5480229780349663e-11,
+          "hessian_relative_residual": 1.0738927674251789e-10,
+          "mixed_symmetry_relative_residual": 0.0,
+          "hessian_norm": 0.14415061027857307,
+          "term_norms": {
+            "linear": 6.938893903907228e-12,
+            "quadratic": 0.14415061028693982
+          },
+          "cancellation_ratio": 1.0000000000712215,
+          "analytic_relative_residual": 2.367369370004383e-10,
+          "analytic_components_relative_residual": {
+            "linear": 1.0,
+            "quadratic": 1.3247858661997356e-10
+          }
+        },
+        {
+          "h": 0.0003,
+          "rhs_absolute_residual": 0.0,
+          "rhs_relative_residual": 0.0,
+          "hessian_absolute_residual": 2.2996585497991187e-10,
+          "hessian_relative_residual": 1.5953165541931462e-09,
+          "mixed_symmetry_relative_residual": 0.0,
+          "hessian_norm": 0.14415061033624663,
+          "term_norms": {
+            "linear": 7.947164580767775e-11,
+            "quadratic": 0.14415061030760254
+          },
+          "cancellation_ratio": 1.0000000002941047,
+          "analytic_relative_residual": 2.907085908414204e-09,
+          "analytic_components_relative_residual": {
+            "linear": 1.0,
+            "quadratic": 2.2585414526864667e-09
+          }
+        },
+        {
+          "h": 0.0001,
+          "rhs_absolute_residual": 0.0,
+          "rhs_relative_residual": 0.0,
+          "hessian_absolute_residual": 5.667925464306565e-09,
+          "hessian_relative_residual": 3.9319468698403315e-08,
+          "mixed_symmetry_relative_residual": 0.0,
+          "hessian_norm": 0.1441506116926938,
+          "term_norms": {
+            "linear": 7.152448122690995e-10,
+            "quadratic": 0.1441506103634617
+          },
+          "cancellation_ratio": 1.0000000026596159,
+          "analytic_relative_residual": 3.5020370169071857e-08,
+          "analytic_components_relative_residual": {
+            "linear": 1.0,
+            "quadratic": 2.79988852557593e-08
+          }
+        },
+        {
+          "h": 3e-05,
+          "rhs_absolute_residual": 0.0,
+          "rhs_relative_residual": 0.0,
+          "hessian_absolute_residual": 3.376096679506612e-08,
+          "hessian_relative_residual": 2.3420618414278205e-07,
+          "mixed_symmetry_relative_residual": 0.0,
+          "hessian_norm": 0.14415062061078626,
+          "term_norms": {
+            "linear": 3.854941057726238e-09,
+            "quadratic": 0.1441506143533927
+          },
+          "cancellation_ratio": 1.0000000291813678,
+          "analytic_relative_residual": 4.7039318601002695e-07,
+          "analytic_components_relative_residual": {
+            "linear": 1.0,
+            "quadratic": 2.615032942250561e-07
+          }
+        }
+      ]
+    },
+    {
+      "sample": 1,
+      "steps": [
+        {
+          "h": 0.001,
+          "rhs_absolute_residual": 0.0,
+          "rhs_relative_residual": 0.0,
+          "hessian_absolute_residual": 3.622273863732334e-11,
+          "hessian_relative_residual": 2.9339774371125304e-10,
+          "mixed_symmetry_relative_residual": 0.0,
+          "hessian_norm": 0.12345949965099902,
+          "term_norms": {
+            "linear": 1.3877787807814457e-11,
+            "quadratic": 0.12345949963162843
+          },
+          "cancellation_ratio": 1.000000000055345,
+          "analytic_relative_residual": 3.5662604492269035e-10,
+          "analytic_components_relative_residual": {
+            "linear": 1.0,
+            "quadratic": 1.928520007925792e-10
+          }
+        },
+        {
+          "h": 0.0003,
+          "rhs_absolute_residual": 0.0,
+          "rhs_relative_residual": 0.0,
+          "hessian_absolute_residual": 7.205653374703246e-10,
+          "hessian_relative_residual": 5.836451141414925e-09,
+          "mixed_symmetry_relative_residual": 0.0,
+          "hessian_norm": 0.12345949925156542,
+          "term_norms": {
+            "linear": 0.0,
+            "quadratic": 0.12345949961908508
+          },
+          "cancellation_ratio": 1.0,
+          "analytic_relative_residual": 1.2050186363405427e-08,
+          "analytic_components_relative_residual": {
+            "linear": 0.0,
+            "quadratic": 1.043237585128467e-08
+          }
+        },
+        {
+          "h": 0.0001,
+          "rhs_absolute_residual": 0.0,
+          "rhs_relative_residual": 0.0,
+          "hessian_absolute_residual": 6.182044349075329e-09,
+          "hessian_relative_residual": 5.0073459529259635e-08,
+          "mixed_symmetry_relative_residual": 0.0,
+          "hessian_norm": 0.12345950144433199,
+          "term_norms": {
+            "linear": 0.0,
+            "quadratic": 0.12345950040007675
+          },
+          "cancellation_ratio": 1.0,
+          "analytic_relative_residual": 7.160463388664548e-08,
+          "analytic_components_relative_residual": {
+            "linear": 0.0,
+            "quadratic": 4.183159613046227e-08
+          }
+        },
+        {
+          "h": 3e-05,
+          "rhs_absolute_residual": 0.0,
+          "rhs_relative_residual": 0.0,
+          "hessian_absolute_residual": 6.891254695534751e-08,
+          "hessian_relative_residual": 5.581792169922855e-07,
+          "mixed_symmetry_relative_residual": 0.0,
+          "hessian_norm": 0.12345953567866345,
+          "term_norms": {
+            "linear": 1.24377867610937e-07,
+            "quadratic": 0.1234595052691627
+          },
+          "cancellation_ratio": 1.0000009958899136,
+          "analytic_relative_residual": 9.247379406560472e-07,
+          "analytic_components_relative_residual": {
+            "linear": 1.0,
+            "quadratic": 3.019525833708174e-07
+          }
+        }
+      ]
+    },
+    {
+      "sample": 2,
+      "steps": [
+        {
+          "h": 0.001,
+          "rhs_absolute_residual": 0.0,
+          "rhs_relative_residual": 0.0,
+          "hessian_absolute_residual": 6.915272432730818e-11,
+          "hessian_relative_residual": 2.8819696454477487e-10,
+          "mixed_symmetry_relative_residual": 0.0,
+          "hessian_norm": 0.23994952352854937,
+          "term_norms": {
+            "linear": 2.8609792490763984e-11,
+            "quadratic": 0.2399495235368635
+          },
+          "cancellation_ratio": 1.0000000001189562,
+          "analytic_relative_residual": 2.7702985365637377e-10,
+          "analytic_components_relative_residual": {
+            "linear": 1.0,
+            "quadratic": 6.505702081228315e-11
+          }
+        },
+        {
+          "h": 0.0003,
+          "rhs_absolute_residual": 0.0,
+          "rhs_relative_residual": 0.0,
+          "hessian_absolute_residual": 3.881022193055121e-10,
+          "hessian_relative_residual": 1.6174327497122676e-09,
+          "mixed_symmetry_relative_residual": 0.0,
+          "hessian_norm": 0.23994952453955404,
+          "term_norms": {
+            "linear": 8.72273588157653e-10,
+            "quadratic": 0.23994952457269406
+          },
+          "cancellation_ratio": 1.0000000036771128,
+          "analytic_relative_residual": 6.826306724604156e-09,
+          "analytic_components_relative_residual": {
+            "linear": 1.0,
+            "quadratic": 6.607357628653204e-09
+          }
+        },
+        {
+          "h": 0.0001,
+          "rhs_absolute_residual": 0.0,
+          "rhs_relative_residual": 0.0,
+          "hessian_absolute_residual": 9.321271158996786e-09,
+          "hessian_relative_residual": 3.8846800527854984e-08,
+          "mixed_symmetry_relative_residual": 0.0,
+          "hessian_norm": 0.23994952048400991,
+          "term_norms": {
+            "linear": 4.808189107813054e-09,
+            "quadratic": 0.23994951947853266
+          },
+          "cancellation_ratio": 1.0000000236638085,
+          "analytic_relative_residual": 4.3569377352154546e-08,
+          "analytic_components_relative_residual": {
+            "linear": 1.0,
+            "quadratic": 2.927395048871671e-08
+          }
+        },
+        {
+          "h": 3e-05,
+          "rhs_absolute_residual": 0.0,
+          "rhs_relative_residual": 0.0,
+          "hessian_absolute_residual": 5.655761466006645e-08,
+          "hessian_relative_residual": 2.3570631798447055e-07,
+          "mixed_symmetry_relative_residual": 0.0,
+          "hessian_norm": 0.23994950641837584,
+          "term_norms": {
+            "linear": 8.756742778115867e-08,
+            "quadratic": 0.239949498660621
+          },
+          "cancellation_ratio": 1.0000003691410204,
+          "analytic_relative_residual": 4.743890378493396e-07,
+          "analytic_components_relative_residual": {
+            "linear": 1.0,
+            "quadratic": 3.099027678531522e-07
+          }
+        }
+      ]
+    },
+    {
+      "sample": 3,
+      "steps": [
+        {
+          "h": 0.001,
+          "rhs_absolute_residual": 0.0,
+          "rhs_relative_residual": 0.0,
+          "hessian_absolute_residual": 8.744881959586117e-11,
+          "hessian_relative_residual": 2.304804025859252e-10,
+          "mixed_symmetry_relative_residual": 0.0,
+          "hessian_norm": 0.37941976243352765,
+          "term_norms": {
+            "linear": 3.417008968066607e-11,
+            "quadratic": 0.37941976241156794
+          },
+          "cancellation_ratio": 1.0000000000193099,
+          "analytic_relative_residual": 2.49100298505315e-10,
+          "analytic_components_relative_residual": {
+            "linear": 1.0,
+            "quadratic": 2.391314434959021e-10
+          }
+        },
+        {
+          "h": 0.0003,
+          "rhs_absolute_residual": 0.0,
+          "rhs_relative_residual": 0.0,
+          "hessian_absolute_residual": 9.702784980817537e-10,
+          "hessian_relative_residual": 2.5572692670068727e-09,
+          "mixed_symmetry_relative_residual": 0.0,
+          "hessian_norm": 0.3794197625568798,
+          "term_norms": {
+            "linear": 3.4694469519536147e-10,
+            "quadratic": 0.37941976277581
+          },
+          "cancellation_ratio": 1.0000000016963957,
+          "analytic_relative_residual": 4.274766921774176e-09,
+          "analytic_components_relative_residual": {
+            "linear": 1.0,
+            "quadratic": 4.427571135578995e-09
+          }
+        },
+        {
+          "h": 0.0001,
+          "rhs_absolute_residual": 0.0,
+          "rhs_relative_residual": 0.0,
+          "hessian_absolute_residual": 5.943841149887309e-09,
+          "hessian_relative_residual": 1.5665607726561168e-08,
+          "mixed_symmetry_relative_residual": 0.0,
+          "hessian_norm": 0.37941976118207127,
+          "term_norms": {
+            "linear": 1.3877787807814457e-09,
+            "quadratic": 0.3794197616688292
+          },
+          "cancellation_ratio": 1.0000000036781427,
+          "analytic_relative_residual": 1.7619436486427907e-08,
+          "analytic_components_relative_residual": {
+            "linear": 1.0,
+            "quadratic": 9.212284503254676e-09
+          }
+        },
+        {
+          "h": 3e-05,
+          "rhs_absolute_residual": 0.0,
+          "rhs_relative_residual": 0.0,
+          "hessian_absolute_residual": 3.087057071275409e-08,
+          "hessian_relative_residual": 8.136258818495911e-08,
+          "mixed_symmetry_relative_residual": 0.0,
+          "hessian_norm": 0.3794197225274372,
+          "term_norms": {
+            "linear": 1.24377867610937e-07,
+            "quadratic": 0.37941974651615984
+          },
+          "cancellation_ratio": 1.0000003884601658,
+          "analytic_relative_residual": 6.90942050690404e-07,
+          "analytic_components_relative_residual": {
+            "linear": 1.0,
+            "quadratic": 3.5814442854921275e-07
+          }
+        }
+      ]
+    }
+  ],
+  "boundary": "No Q550 claim without an authenticated original-model adapter, parent hash, and server run. Finite differences cannot establish a symbolic identity."
+}

@@ -1,0 +1,17 @@
+{
+  "version": "v18.48",
+  "parent_status": "PARENT_NOT_ATTACHED",
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  },
+  "sha256": {
+    "README.md": "176abd4d82e17a27876bb8631ed4054fe46f3da71326d3f680750fbcd1f3b6c7",
+    "inputs/synthetic_smoke.npz": "c53e5e58416dc5ae9907eaa440a9958ed55a54c60f443d287e134a44131f9c5f",
+    "outputs/smoke.json": "00ca12b0c711917b340aa518409d477373ed55fb97022d4c10f8e2f0f316935e",
+    "scripts/audit_v18_48.py": "7ada61833f1073a9173a4a088b68ebd421432af539a98b4702a91738850a11fa",
+    "scripts/example_adapter.py": "cca7132acdbe16f38728134d58ed8b27ad65fa60c86cfb00b492f8204ce8dcd7",
+    "scripts/make_smoke_inputs.py": "46323de04f0fd7b2fcdacb5018211f03be0dc24f670b77822057b3c40fdb878a",
+    "scripts/run_on_server.sh": "b2451d45a95514273df468083e04fbdd3e021b492ba3bb4e0ba5fd16d3207846"
+  }
+}
