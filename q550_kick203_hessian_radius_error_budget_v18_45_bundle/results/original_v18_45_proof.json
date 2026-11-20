@@ -1,0 +1,53 @@
+{
+  "version": "v18.45",
+  "status": "ORIGINAL_Q550_HESSIAN_RADIUS_ERROR_BUDGET_COMPLETED",
+  "original_integrations": 25,
+  "original_cases": 12,
+  "original_snapshots": 36,
+  "rhs_radius_rows": 396,
+  "jac_target_rows": 216,
+  "component_budget_rows": 360,
+  "solver_rows": 24,
+  "parent_v18_44_sha256": "cd8b83faa1dbf0127b8742d7de93094ad8d72e03bfebfc100cf14c4f7e955fb3",
+  "parent_v18_44_verified_members": 147,
+  "max_v18_44_vector_regression": 0.0,
+  "max_within_parent_support_radius_fraction": 0.5364707517418283,
+  "original_ode_sha256_verified": true,
+  "source_kappa0_unchanged": true,
+  "no_symbolic_hessian_claimed": true,
+  "no_certified_second_jet": true,
+  "no_certified_curvature": true,
+  "no_material_metric_certified": true,
+  "no_physical_constraint_certified": true,
+  "method": {
+    "rhs_radii": [
+      0.0015,
+      0.002,
+      0.003,
+      0.004,
+      0.006,
+      0.008,
+      0.012,
+      0.018,
+      0.024,
+      0.036,
+      0.048
+    ],
+    "jac_targets": [
+      0.00025,
+      0.0005,
+      0.001,
+      0.002,
+      0.004,
+      0.008
+    ],
+    "hessian": "original RHS mixed fourth-order derivatives versus numerical directional pinned Jacobian",
+    "jac_reference": "componentwise median of targets 0.0005,0.001,0.002; NOT true Hessian",
+    "min_discrepancy": "descriptive minimum across tested RHS radii relative to the selected Jacobian consensus",
+    "error_budget": "10-component squared Euclidean norm error share and neighbor radius instability",
+    "ancestor": "Original center seed reproduced from pinned v18.36 acceptance ledger; original v18.44 exact-radius regression",
+    "kappa0": "Frozen inherited old source kappa0; geometric proposal NOT introduced",
+    "caution": "No certified precision floor, analytic Hessian, intrinsic torsion or stiffness inferred"
+  },
+  "preflight_only": false
+}

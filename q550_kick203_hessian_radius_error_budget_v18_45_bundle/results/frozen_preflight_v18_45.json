@@ -1,0 +1,35 @@
+{
+  "version": "v18.45",
+  "status": "PREFLIGHT_ONLY_ORIGINAL_V18_44_AUTHENTICATED",
+  "parent_sha256": "cd8b83faa1dbf0127b8742d7de93094ad8d72e03bfebfc100cf14c4f7e955fb3",
+  "parent_verified_members": 147,
+  "historical_checkpoint_tiers": [
+    "standard",
+    "tight"
+  ],
+  "parent_hessian_rows": 324,
+  "parent_jet_rows": 36,
+  "parent_case_rows": 12,
+  "parent_radius_summaries": [
+    {
+      "radius": 0.006,
+      "comparison_count": 108,
+      "median_relative_disagreement": 0.007317130429181263,
+      "maximum_relative_disagreement": 0.059923897395675885
+    },
+    {
+      "radius": 0.018,
+      "comparison_count": 108,
+      "median_relative_disagreement": 0.02323904819971795,
+      "maximum_relative_disagreement": 0.2578937301657646
+    },
+    {
+      "radius": 0.036,
+      "comparison_count": 108,
+      "median_relative_disagreement": 0.1043660070464491,
+      "maximum_relative_disagreement": 1.1507430522504383
+    }
+  ],
+  "no_new_original_integrations": true,
+  "no_certified_hessian": true
+}

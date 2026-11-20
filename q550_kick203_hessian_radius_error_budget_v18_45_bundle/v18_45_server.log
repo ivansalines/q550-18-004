@@ -1,0 +1,72 @@
+test_anchored_parent_step (test_hessian_budget_v18_45.HessianBudgetTests.test_anchored_parent_step) ... ok
+test_cancellation_unequal_probes (test_hessian_budget_v18_45.HessianBudgetTests.test_cancellation_unequal_probes) ... ok
+test_choose_descriptive_minimum (test_hessian_budget_v18_45.HessianBudgetTests.test_choose_descriptive_minimum) ... ok
+test_component_shares (test_hessian_budget_v18_45.HessianBudgetTests.test_component_shares) ... ok
+test_grid_length (test_hessian_budget_v18_45.HessianBudgetTests.test_grid_length) ... ok
+test_independent_quadratic_model_hessian (test_hessian_budget_v18_45.HessianBudgetTests.test_independent_quadratic_model_hessian) ... ok
+test_neighbor_instability (test_hessian_budget_v18_45.HessianBudgetTests.test_neighbor_instability) ... ok
+test_nonmonotone_probe_rejected (test_hessian_budget_v18_45.HessianBudgetTests.test_nonmonotone_probe_rejected) ... ok
+test_positive_radii (test_hessian_budget_v18_45.HessianBudgetTests.test_positive_radii) ... ok
+test_power_synthetic_quadratic (test_hessian_budget_v18_45.HessianBudgetTests.test_power_synthetic_quadratic) ... ok
+test_reference_median (test_hessian_budget_v18_45.HessianBudgetTests.test_reference_median) ... ok
+test_relative_scale (test_hessian_budget_v18_45.HessianBudgetTests.test_relative_scale) ... ok
+test_relative_zero (test_hessian_budget_v18_45.HessianBudgetTests.test_relative_zero) ... ok
+test_richardson_constant (test_hessian_budget_v18_45.HessianBudgetTests.test_richardson_constant) ... ok
+test_signed_difference (test_hessian_budget_v18_45.HessianBudgetTests.test_signed_difference) ... ok
+test_vector_columns (test_hessian_budget_v18_45.HessianBudgetTests.test_vector_columns) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.057s
+
+OK
+{
+  "version": "v18.45",
+  "status": "PREFLIGHT_ONLY_ORIGINAL_V18_44_AUTHENTICATED",
+  "parent_sha256": "cd8b83faa1dbf0127b8742d7de93094ad8d72e03bfebfc100cf14c4f7e955fb3",
+  "parent_verified_members": 147,
+  "historical_checkpoint_tiers": [
+    "standard",
+    "tight"
+  ],
+  "parent_hessian_rows": 324,
+  "parent_jet_rows": 36,
+  "parent_case_rows": 12,
+  "parent_radius_summaries": [
+    {
+      "radius": 0.006,
+      "comparison_count": 108,
+      "median_relative_disagreement": 0.007317130429181263,
+      "maximum_relative_disagreement": 0.059923897395675885
+    },
+    {
+      "radius": 0.018,
+      "comparison_count": 108,
+      "median_relative_disagreement": 0.02323904819971795,
+      "maximum_relative_disagreement": 0.2578937301657646
+    },
+    {
+      "radius": 0.036,
+      "comparison_count": 108,
+      "median_relative_disagreement": 0.1043660070464491,
+      "maximum_relative_disagreement": 1.1507430522504383
+    }
+  ],
+  "no_new_original_integrations": true,
+  "no_certified_hessian": true
+}
+V18_45 phasecov_d2_lam-1.00_mod+0.00|xi=3.5|branch=0 grid 11 x 6 parent_reg 0.000e+00
+V18_45 phasecov_d2_lam-1.00_mod+0.00|xi=3.5|branch=1 grid 11 x 6 parent_reg 0.000e+00
+V18_45 phasecov_d2_lam-1.00_mod+0.00|xi=4|branch=0 grid 11 x 6 parent_reg 0.000e+00
+V18_45 phasecov_d2_lam-1.00_mod+0.00|xi=4|branch=1 grid 11 x 6 parent_reg 0.000e+00
+V18_45 phasecov_d2_lam-1.00_mod+0.00|xi=4.5|branch=0 grid 11 x 6 parent_reg 0.000e+00
+V18_45 phasecov_d2_lam-1.00_mod+0.00|xi=4.5|branch=1 grid 11 x 6 parent_reg 0.000e+00
+V18_45 phaseblind_d2_lam-1.00_mod+0.00|xi=3.5|branch=0 grid 11 x 6 parent_reg 0.000e+00
+V18_45 phaseblind_d2_lam-1.00_mod+0.00|xi=3.5|branch=1 grid 11 x 6 parent_reg 0.000e+00
+V18_45 phaseblind_d2_lam-1.00_mod+0.00|xi=4|branch=0 grid 11 x 6 parent_reg 0.000e+00
+V18_45 phaseblind_d2_lam-1.00_mod+0.00|xi=4|branch=1 grid 11 x 6 parent_reg 0.000e+00
+V18_45 phaseblind_d2_lam-1.00_mod+0.00|xi=4.5|branch=0 grid 11 x 6 parent_reg 0.000e+00
+V18_45 phaseblind_d2_lam-1.00_mod+0.00|xi=4.5|branch=1 grid 11 x 6 parent_reg 0.000e+00
+ORIGINAL_V18_45_COMPLETED 25 396 216 0.0
+V18_45_ORIGINAL_PLOTS_COMPLETED
+V18_45_SHA_MANIFEST 156
+ORIGINAL_V18_45_SENDBACK /root/elab1/hysteresis/q550_kick203_hessian_radius_error_budget_v18_45_sendback.zip
