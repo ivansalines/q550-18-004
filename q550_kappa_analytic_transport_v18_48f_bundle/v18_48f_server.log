@@ -1,0 +1,35 @@
+test_cancellation_scaling_invariance (test_transport.TransportTests.test_cancellation_scaling_invariance) ... ok
+test_exact_algebraic_telescope_and_zero_z (test_transport.TransportTests.test_exact_algebraic_telescope_and_zero_z) ... ok
+test_frozen_parent_provenance (test_transport.TransportTests.test_frozen_parent_provenance) ... ok
+test_history_labels (test_transport.TransportTests.test_history_labels) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.011s
+
+OK
+v18.48f phaseblind_d2_lam-1.00_mod+0.00|xi=3.5|branch=0: 34 frames, Cmax ref=103.436 geo=102.224
+v18.48f phaseblind_d2_lam-1.00_mod+0.00|xi=3.5|branch=1: 34 frames, Cmax ref=1.85196 geo=1.85188
+v18.48f phaseblind_d2_lam-1.00_mod+0.00|xi=4.5|branch=0: 34 frames, Cmax ref=1.75375 geo=1.75369
+v18.48f phaseblind_d2_lam-1.00_mod+0.00|xi=4.5|branch=1: 34 frames, Cmax ref=37.5189 geo=37.3588
+v18.48f phaseblind_d2_lam-1.00_mod+0.00|xi=4|branch=0: 34 frames, Cmax ref=10.3669 geo=10.3642
+v18.48f phaseblind_d2_lam-1.00_mod+0.00|xi=4|branch=1: 34 frames, Cmax ref=38.1907 geo=38.0849
+v18.48f phasecov_d2_lam-1.00_mod+0.00|xi=3.5|branch=0: 34 frames, Cmax ref=6.71687 geo=6.7163
+v18.48f phasecov_d2_lam-1.00_mod+0.00|xi=3.5|branch=1: 34 frames, Cmax ref=36.2163 geo=36.2078
+v18.48f phasecov_d2_lam-1.00_mod+0.00|xi=4.5|branch=0: 34 frames, Cmax ref=1.2243 geo=1.22427
+v18.48f phasecov_d2_lam-1.00_mod+0.00|xi=4.5|branch=1: 34 frames, Cmax ref=1.32058 geo=1.32055
+v18.48f phasecov_d2_lam-1.00_mod+0.00|xi=4|branch=0: 34 frames, Cmax ref=8.42908 geo=8.42661
+v18.48f phasecov_d2_lam-1.00_mod+0.00|xi=4|branch=1: 34 frames, Cmax ref=5.26755 geo=5.26716
+{
+  "status": "ORIGINAL_Q550_ANALYTIC_LOCAL_CANCELLATION_TRANSPORT",
+  "cases": 12,
+  "samples": 408,
+  "fresh_integrations": 24,
+  "max_original_restart_snapshot_absolute_error": 1.2865337235202935e-12,
+  "max_telescope_relative_error": 0.0,
+  "focus_phaseblind_xi35": {
+    "samples": 68,
+    "ref_max_cancellation": 103.43622675055464,
+    "geo_max_cancellation": 102.22379061816346
+  }
+}
+SENDBACK /root/elab1/hysteresis/q550_kappa_analytic_transport_v18_48f_bundle/sendback.zip files 32

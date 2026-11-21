@@ -1,0 +1,106 @@
+{
+  "version": "v18.48e",
+  "status": "ORIGINAL_Q550_ANALYTIC_STRUCTURAL_HESSIAN_FIXED_STATE",
+  "classification": "EXACT_SYMBOLIC_FORMULA_EVALUATED_IN_BINARY64_NOT_INTERVAL_CERTIFIED",
+  "source_hashes": {
+    "audit": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864",
+    "support": "5b5938e7920b2ecd242fb8f416a18c7c47ae10aa06e027e0727f15e284c98c61",
+    "tube": "a9d1ec342c268da8e721dc641cab8cc4cf39f69d821dfd4191163833ba04e881"
+  },
+  "verified_dependencies": {
+    "audit": {
+      "path": "/root/elab1/hysteresis/test_support_mobius_monodromy_audit.py",
+      "sha256": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864"
+    },
+    "support": {
+      "path": "/root/elab1/hysteresis/test_support_q550_support_ode_interval_residual_pilot_v1.py",
+      "sha256": "5b5938e7920b2ecd242fb8f416a18c7c47ae10aa06e027e0727f15e284c98c61"
+    },
+    "tube": {
+      "path": "/root/elab1/hysteresis/test_support_q550_exact_nonlinear_local_tube_v2_1.py",
+      "sha256": "a9d1ec342c268da8e721dc641cab8cc4cf39f69d821dfd4191163833ba04e881"
+    },
+    "orbit": {
+      "path": "/root/elab1/hysteresis/q_550_orbit.npz",
+      "sha256": "537f6326b841f36f963be3736b1034724041994a07f9ac9e5377de6c99048f34"
+    },
+    "events": {
+      "path": "/root/elab1/hysteresis/inputs/presence_metrology_events.csv",
+      "sha256": "bc18df957b9dc311978584132b9cf0690e30a9576a306bda6f189a4ba33df892"
+    },
+    "shared": {
+      "path": "/root/elab1/hysteresis/support_q550_shared_generator_arc_cocycle_cell49_v1_pilot.json",
+      "sha256": "be9ad38fc157073efeb95890588ead7ff47e2a8a7e381bba1cdea3d5682567aa"
+    }
+  },
+  "parent_auth": {
+    "parent_sha256": "08fb4df3ad76cf2cf3f480c26967d9ca1993b82b2ceabbb5f7053216dda9afb4",
+    "verified_members": 166
+  },
+  "original_snapshot_count": 36,
+  "case_count": 12,
+  "original_integrations": 13,
+  "kappa_ref": 0.16666666666666666,
+  "kappa_geo": 0.16659961041764054,
+  "delta_kappa": -6.705624902611507e-05,
+  "slope": 0.1343837359721647,
+  "max_rhs_pinned_relative": 7.787195175331109e-15,
+  "max_jac_pinned_relative": 6.251057988292245e-15,
+  "max_delta_tensor_identity_relative": 7.664053365616019e-13,
+  "max_analytic_z_coupling_hessian": 0.0,
+  "median_exact_full_hessian_delta_relative": 0.00018441259821867412,
+  "median_exact_chart_kernel_delta_relative": 0.0014796922405574003,
+  "median_kernel_cancellation_ratio": 7.557409976269776,
+  "max_chart_kernel_identity_relative": 1.9432872527297314e-09,
+  "floor_scan": [
+    {
+      "h": 0.048,
+      "snapshots": 36,
+      "median_original_numeric_vs_analytic": 8.429596272746236e-06,
+      "median_geometric_numeric_vs_analytic": 1.0929740808613028e-05,
+      "median_kappa_delta_numeric_vs_analytic": 0.004133344908320943,
+      "median_kappa_delta_numeric_z": 1.9574186022053297e-14
+    },
+    {
+      "h": 0.024,
+      "snapshots": 36,
+      "median_original_numeric_vs_analytic": 2.008041524657641e-05,
+      "median_geometric_numeric_vs_analytic": 3.144336818871958e-05,
+      "median_kappa_delta_numeric_vs_analytic": 0.007788354399476895,
+      "median_kappa_delta_numeric_z": 3.7750394986640207e-14
+    },
+    {
+      "h": 0.012,
+      "snapshots": 36,
+      "median_original_numeric_vs_analytic": 2.8090387835598408e-05,
+      "median_geometric_numeric_vs_analytic": 3.026246650732929e-05,
+      "median_kappa_delta_numeric_vs_analytic": 0.011025054639870946,
+      "median_kappa_delta_numeric_z": 6.725704181412794e-14
+    },
+    {
+      "h": 0.008,
+      "snapshots": 36,
+      "median_original_numeric_vs_analytic": 7.851072435614712e-05,
+      "median_geometric_numeric_vs_analytic": 6.901566127252257e-05,
+      "median_kappa_delta_numeric_vs_analytic": 0.01943698743884798,
+      "median_kappa_delta_numeric_z": 2.1743544295529504e-13
+    },
+    {
+      "h": 0.004,
+      "snapshots": 36,
+      "median_original_numeric_vs_analytic": 0.00010910517186269586,
+      "median_geometric_numeric_vs_analytic": 0.00012614173701640206,
+      "median_kappa_delta_numeric_vs_analytic": 0.05147914428008609,
+      "median_kappa_delta_numeric_z": 2.5591683923387697e-13
+    },
+    {
+      "h": 0.002,
+      "snapshots": 36,
+      "median_original_numeric_vs_analytic": 0.00022427867087025394,
+      "median_geometric_numeric_vs_analytic": 0.00035921888110408614,
+      "median_kappa_delta_numeric_vs_analytic": 0.0953032332850845,
+      "median_kappa_delta_numeric_z": 3.8959124470195955e-13
+    }
+  ],
+  "limitations": "Analytic derivatives of pinned real-number formulas, evaluated in binary64; not a formal interval enclosure. Frozen original source-gradient/chart, fixed states; not an invariant metric, nor transported frame at geometric-kappa, nor a claim about persistence of the full material hysteresis. Original source files unchanged."
+}

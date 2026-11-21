@@ -1,0 +1,4 @@
+Python >= 3.13 (server historical interpreter)
+numpy, scipy, mpmath for original SHA-pinned sources
+matplotlib optional for scripts/plot_transport.py
+sympy optional for regenerating v18.48e symbolic code (not required for v18.48f)

@@ -1,0 +1,30 @@
+{
+  "version": "v18.48f",
+  "root": "q550_kappa_analytic_transport_v18_48f_bundle",
+  "bundle_kind": "server_runner_with_authentic_v18.48e_frozen_snapshot_inputs",
+  "files": {
+    "README.md": "dd6e79c3fa6392c9db8c94a9819e2316071c5e864b736dda73569a174a9a09bc",
+    "inputs/PARENT_SHA256.json": "472197846da1978b6a55f849fca5085b11bba4f01b0ab732f04fcd6a574fadce",
+    "inputs/case_integrations.csv": "f2ee852d26169c2e70e3b2a23336201d6c159155d07174c14e4a666bc3b7b6ea",
+    "inputs/report.json": "2e76de37e6627362d4b6276675282928c0d32dcbb79a53a02f133bf31629e809",
+    "inputs/structural_snapshot_states.npz": "cdb8b0c668160d593a2ddfe1c1ab88e3f2e3756ea3f6d9f80a890d05d34f0a30",
+    "inputs/structural_snapshots.csv": "ae31e0d45b84c462b8982abc753c27b004f84058f9c6f9c2ad34dbc5e1e8e78b",
+    "preflight/local_preflight_branch_pairs.csv": "22e22dacfcd7a497898e9cb50616075d21ebf56ae9698f3029edf96a2858f6a6",
+    "preflight/local_preflight_phaseblind_xi35.png": "e19d1761fe88a1dbe70a4c828826c53088bcf4c18f5e53f018d3f1efbfa06e07",
+    "preflight/local_preflight_report.json": "dff5d4ca9c1eda49540deadc47c1db75f12cbc5a267284c2694261c5617f719b",
+    "reference/test_support_mobius_monodromy_audit.py": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864",
+    "reference/test_support_q550_exact_nonlinear_local_tube_v2_1.py": "a9d1ec342c268da8e721dc641cab8cc4cf39f69d821dfd4191163833ba04e881",
+    "reference/test_support_q550_support_ode_interval_residual_pilot_v1.py": "5b5938e7920b2ecd242fb8f416a18c7c47ae10aa06e027e0727f15e284c98c61",
+    "reference/v18_48d_run_audit.py": "1e2f942e39ee031f6eaf6a0b6e90763cf2ba000797f063c68c1d5642c6be3f17",
+    "reference/v18_48e_run_audit.py": "10c866d195956505ba999a60f157334e092db61583520300381e40c5244c74c1",
+    "requirements.txt": "a8da3570f647c4a2cd56e2177057eaa290584c289da1342582103a4a2caa8002",
+    "run_on_server.sh": "30efe8516fa11a8da4b404791c9f392d92883f2c8356561af6f25ce69bea3774",
+    "scripts/generate_structural_math.py": "a5aa46208900ccdeb33aaa6765666807b51fb357ace78180b96956d8fda50bbd",
+    "scripts/generated_base_jet.py": "43e0c0b075876d55d4c08caabfde28b38b943d689ece024451806e81067611f3",
+    "scripts/pack_sendback.py": "7fc90758d712fcba1882b953d143165ab28dabd9c8cca8fcdf023a28e9ead66b",
+    "scripts/plot_transport.py": "1d9740f8d9dacd298a75a7d287f95ddbd998e507abe1b68fba419333cf6d16eb",
+    "scripts/run_audit.py": "644b7e68f1d486b3925cf38010d92e46cb663e2026330a02eb7a82fa0b95b281",
+    "scripts/structural_jet.py": "8221474a1213301af3c7395a624d10d3f0c7730893ecf5165b05039ba2cabb01",
+    "tests/test_transport.py": "d4151ec3dd13fe5f7c322904245defe75c50ae791924cee2db4350d2f715385c"
+  }
+}

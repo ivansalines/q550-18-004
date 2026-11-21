@@ -1,0 +1,9 @@
+{
+  "version": "v18.48e",
+  "files": {
+    "structural_snapshot_states.npz": "cdb8b0c668160d593a2ddfe1c1ab88e3f2e3756ea3f6d9f80a890d05d34f0a30",
+    "structural_snapshots.csv": "ae31e0d45b84c462b8982abc753c27b004f84058f9c6f9c2ad34dbc5e1e8e78b",
+    "case_integrations.csv": "f2ee852d26169c2e70e3b2a23336201d6c159155d07174c14e4a666bc3b7b6ea",
+    "report.json": "2e76de37e6627362d4b6276675282928c0d32dcbb79a53a02f133bf31629e809"
+  }
+}
