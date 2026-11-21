@@ -1,0 +1,312 @@
+{
+  "version": "v18.48d",
+  "status": "ORIGINAL_Q550_PINNED_JACOBIAN_DERIVATIVE_FLOOR_AUDIT",
+  "baseline_kappa": 0.16666666666666666,
+  "autonomous_kappa": 0.16659961041764054,
+  "delta_kappa": -6.705624902611507e-05,
+  "original_case_count": 12,
+  "snapshot_count": 36,
+  "rows": 720,
+  "integrations": 24,
+  "restart_enabled": true,
+  "original_verified_dependencies": {
+    "audit": {
+      "path": "/root/elab1/hysteresis/test_support_mobius_monodromy_audit.py",
+      "sha256": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864"
+    },
+    "support": {
+      "path": "/root/elab1/hysteresis/test_support_q550_support_ode_interval_residual_pilot_v1.py",
+      "sha256": "5b5938e7920b2ecd242fb8f416a18c7c47ae10aa06e027e0727f15e284c98c61"
+    },
+    "tube": {
+      "path": "/root/elab1/hysteresis/test_support_q550_exact_nonlinear_local_tube_v2_1.py",
+      "sha256": "a9d1ec342c268da8e721dc641cab8cc4cf39f69d821dfd4191163833ba04e881"
+    },
+    "orbit": {
+      "path": "/root/elab1/hysteresis/q_550_orbit.npz",
+      "sha256": "537f6326b841f36f963be3736b1034724041994a07f9ac9e5377de6c99048f34"
+    },
+    "events": {
+      "path": "/root/elab1/hysteresis/inputs/presence_metrology_events.csv",
+      "sha256": "bc18df957b9dc311978584132b9cf0690e30a9576a306bda6f189a4ba33df892"
+    },
+    "shared": {
+      "path": "/root/elab1/hysteresis/support_q550_shared_generator_arc_cocycle_cell49_v1_pilot.json",
+      "sha256": "be9ad38fc157073efeb95890588ead7ff47e2a8a7e381bba1cdea3d5682567aa"
+    }
+  },
+  "archived_parent_authority": {
+    "parent_sha256": "08fb4df3ad76cf2cf3f480c26967d9ca1993b82b2ceabbb5f7053216dda9afb4",
+    "verified_members": 166
+  },
+  "scope": "36 original snapshots; compare RHS mixed/polarized stencils against independent pinned-Jacobian first-difference pathway. Same original chart directions retained at fixed and restart states.",
+  "limitations": "Binary64 cancellation at small h; no analytic Hessian or interval enclosure. No rescaled tangent frame. Gauge and source_geometry remain original. Convergence checked empirically only.",
+  "fixed_median_hessian_relative": 0.003252572979345743,
+  "restart_median_hessian_relative": 0.0032643723476546826,
+  "convergence": [
+    {
+      "mode": "fixed_state_fixed_direction",
+      "h": 0.048,
+      "rows": 36,
+      "median_mixed_relative": 0.00038080914687547903,
+      "median_jacobian_kappa_relative": 0.001483740598545332,
+      "median_rhs_jacobian_ref_defect": 0.10537417129896513,
+      "median_rhs_jacobian_geo_defect": 0.10643817246431989,
+      "median_ref_defect_relative": 4.378959462824279e-05,
+      "median_geo_defect_relative": 3.4787749929189735e-05,
+      "median_normalized_defect_change": 4.88324390435248e-05,
+      "median_self_normalized_defect_change": 1.0737642256960922
+    },
+    {
+      "mode": "fixed_state_fixed_direction",
+      "h": 0.032,
+      "rows": 36,
+      "median_mixed_relative": 0.00043230610451504574,
+      "median_jacobian_kappa_relative": 0.0014753001807081582,
+      "median_rhs_jacobian_ref_defect": 0.09548223300173557,
+      "median_rhs_jacobian_geo_defect": 0.09643610415580428,
+      "median_ref_defect_relative": 7.585352184881932e-05,
+      "median_geo_defect_relative": 9.046268940800478e-05,
+      "median_normalized_defect_change": 0.0001097940799977015,
+      "median_self_normalized_defect_change": 1.0784488862156143
+    },
+    {
+      "mode": "fixed_state_fixed_direction",
+      "h": 0.024,
+      "rows": 36,
+      "median_mixed_relative": 0.0008431071516894639,
+      "median_jacobian_kappa_relative": 0.0014871751922731539,
+      "median_rhs_jacobian_ref_defect": 0.05448559662492476,
+      "median_rhs_jacobian_geo_defect": 0.055019847820745794,
+      "median_ref_defect_relative": 0.00017809636477977028,
+      "median_geo_defect_relative": 0.0001451486931206454,
+      "median_normalized_defect_change": 0.00022729696878274596,
+      "median_self_normalized_defect_change": 1.006745299051988
+    },
+    {
+      "mode": "fixed_state_fixed_direction",
+      "h": 0.016,
+      "rows": 36,
+      "median_mixed_relative": 0.001667545069166807,
+      "median_jacobian_kappa_relative": 0.0014976147378315827,
+      "median_rhs_jacobian_ref_defect": 0.01650245141846217,
+      "median_rhs_jacobian_geo_defect": 0.016660623105632984,
+      "median_ref_defect_relative": 0.00044000609179721946,
+      "median_geo_defect_relative": 0.00035967772253411173,
+      "median_normalized_defect_change": 0.00041499482499084443,
+      "median_self_normalized_defect_change": 0.8129860965924464
+    },
+    {
+      "mode": "fixed_state_fixed_direction",
+      "h": 0.012,
+      "rows": 36,
+      "median_mixed_relative": 0.0021475442068538044,
+      "median_jacobian_kappa_relative": 0.001464099810732599,
+      "median_rhs_jacobian_ref_defect": 0.006563976981009459,
+      "median_rhs_jacobian_geo_defect": 0.006849850038612746,
+      "median_ref_defect_relative": 0.0006095125191843661,
+      "median_geo_defect_relative": 0.0007199490684379797,
+      "median_normalized_defect_change": 0.0005792072594073209,
+      "median_self_normalized_defect_change": 0.7169517959935338
+    },
+    {
+      "mode": "fixed_state_fixed_direction",
+      "h": 0.008,
+      "rows": 36,
+      "median_mixed_relative": 0.0038649893471282837,
+      "median_jacobian_kappa_relative": 0.0014803040919069885,
+      "median_rhs_jacobian_ref_defect": 0.005133856366185248,
+      "median_rhs_jacobian_geo_defect": 0.004257843218200238,
+      "median_ref_defect_relative": 0.0012936651304650201,
+      "median_geo_defect_relative": 0.0012418419887678983,
+      "median_normalized_defect_change": 0.0010892646596835265,
+      "median_self_normalized_defect_change": 0.7360383841518174
+    },
+    {
+      "mode": "fixed_state_fixed_direction",
+      "h": 0.006,
+      "rows": 36,
+      "median_mixed_relative": 0.006449742315986771,
+      "median_jacobian_kappa_relative": 0.001564231999139545,
+      "median_rhs_jacobian_ref_defect": 0.009288994858316735,
+      "median_rhs_jacobian_geo_defect": 0.011213192892810862,
+      "median_ref_defect_relative": 0.0028490792553645316,
+      "median_geo_defect_relative": 0.0031903645652946403,
+      "median_normalized_defect_change": 0.0020175707256481256,
+      "median_self_normalized_defect_change": 0.6529817064123562
+    },
+    {
+      "mode": "fixed_state_fixed_direction",
+      "h": 0.004,
+      "rows": 36,
+      "median_mixed_relative": 0.011602223387340219,
+      "median_jacobian_kappa_relative": 0.0015093301844695739,
+      "median_rhs_jacobian_ref_defect": 0.015473200533113605,
+      "median_rhs_jacobian_geo_defect": 0.013983242106694774,
+      "median_ref_defect_relative": 0.0056351429524224925,
+      "median_geo_defect_relative": 0.0047237698556964625,
+      "median_normalized_defect_change": 0.0037503149814020124,
+      "median_self_normalized_defect_change": 0.5729611033832213
+    },
+    {
+      "mode": "fixed_state_fixed_direction",
+      "h": 0.003,
+      "rows": 36,
+      "median_mixed_relative": 0.01049858388552109,
+      "median_jacobian_kappa_relative": 0.001393564973363072,
+      "median_rhs_jacobian_ref_defect": 0.02664840509588369,
+      "median_rhs_jacobian_geo_defect": 0.030311783266716477,
+      "median_ref_defect_relative": 0.009441055347815398,
+      "median_geo_defect_relative": 0.009772459935037645,
+      "median_normalized_defect_change": 0.0049838662437039286,
+      "median_self_normalized_defect_change": 0.3428046883778268
+    },
+    {
+      "mode": "fixed_state_fixed_direction",
+      "h": 0.002,
+      "rows": 36,
+      "median_mixed_relative": 0.017155293803625203,
+      "median_jacobian_kappa_relative": 0.0014753154970407458,
+      "median_rhs_jacobian_ref_defect": 0.07260251296699158,
+      "median_rhs_jacobian_geo_defect": 0.0718257075271431,
+      "median_ref_defect_relative": 0.02679629377975747,
+      "median_geo_defect_relative": 0.026954383853971593,
+      "median_normalized_defect_change": 0.00737908835498176,
+      "median_self_normalized_defect_change": 0.35874936019202736
+    },
+    {
+      "mode": "restart_state_common_direction",
+      "h": 0.048,
+      "rows": 36,
+      "median_mixed_relative": 0.00038084934963500313,
+      "median_jacobian_kappa_relative": 0.0014826492328986703,
+      "median_rhs_jacobian_ref_defect": 0.10537417129896513,
+      "median_rhs_jacobian_geo_defect": 0.10643807428881147,
+      "median_ref_defect_relative": 4.378959462824279e-05,
+      "median_geo_defect_relative": 3.5293931065535816e-05,
+      "median_normalized_defect_change": 4.8213110458667055e-05,
+      "median_self_normalized_defect_change": 1.0669566073015966
+    },
+    {
+      "mode": "restart_state_common_direction",
+      "h": 0.032,
+      "rows": 36,
+      "median_mixed_relative": 0.0004412742280858439,
+      "median_jacobian_kappa_relative": 0.0014792652917464486,
+      "median_rhs_jacobian_ref_defect": 0.09548223300173557,
+      "median_rhs_jacobian_geo_defect": 0.09644754661694072,
+      "median_ref_defect_relative": 7.585352184881932e-05,
+      "median_geo_defect_relative": 8.839383234087033e-05,
+      "median_normalized_defect_change": 0.00011244596424202327,
+      "median_self_normalized_defect_change": 1.0791714539919304
+    },
+    {
+      "mode": "restart_state_common_direction",
+      "h": 0.024,
+      "rows": 36,
+      "median_mixed_relative": 0.0008726917644626173,
+      "median_jacobian_kappa_relative": 0.0014871772131126726,
+      "median_rhs_jacobian_ref_defect": 0.05448559662492476,
+      "median_rhs_jacobian_geo_defect": 0.05501694312709039,
+      "median_ref_defect_relative": 0.00017809636477977028,
+      "median_geo_defect_relative": 0.0001502411576450879,
+      "median_normalized_defect_change": 0.00023281871607369245,
+      "median_self_normalized_defect_change": 1.015368387461644
+    },
+    {
+      "mode": "restart_state_common_direction",
+      "h": 0.016,
+      "rows": 36,
+      "median_mixed_relative": 0.0016695347598836524,
+      "median_jacobian_kappa_relative": 0.0014948987286482803,
+      "median_rhs_jacobian_ref_defect": 0.01650245141846217,
+      "median_rhs_jacobian_geo_defect": 0.01665078747143219,
+      "median_ref_defect_relative": 0.00044000609179721946,
+      "median_geo_defect_relative": 0.00036238785488468316,
+      "median_normalized_defect_change": 0.0004241770059721336,
+      "median_self_normalized_defect_change": 0.7983650182905833
+    },
+    {
+      "mode": "restart_state_common_direction",
+      "h": 0.012,
+      "rows": 36,
+      "median_mixed_relative": 0.0022263481198961654,
+      "median_jacobian_kappa_relative": 0.001464103934815128,
+      "median_rhs_jacobian_ref_defect": 0.006563976981009459,
+      "median_rhs_jacobian_geo_defect": 0.006855138418546706,
+      "median_ref_defect_relative": 0.0006095125191843661,
+      "median_geo_defect_relative": 0.0007062094014727439,
+      "median_normalized_defect_change": 0.0005535874299820748,
+      "median_self_normalized_defect_change": 0.736876650086284
+    },
+    {
+      "mode": "restart_state_common_direction",
+      "h": 0.008,
+      "rows": 36,
+      "median_mixed_relative": 0.0038405506967267274,
+      "median_jacobian_kappa_relative": 0.001480308839037546,
+      "median_rhs_jacobian_ref_defect": 0.005133856366185248,
+      "median_rhs_jacobian_geo_defect": 0.004239795411587971,
+      "median_ref_defect_relative": 0.0012936651304650201,
+      "median_geo_defect_relative": 0.0012232742746741535,
+      "median_normalized_defect_change": 0.0010767715519694554,
+      "median_self_normalized_defect_change": 0.754855691026924
+    },
+    {
+      "mode": "restart_state_common_direction",
+      "h": 0.006,
+      "rows": 36,
+      "median_mixed_relative": 0.006446118893254326,
+      "median_jacobian_kappa_relative": 0.0015807603937735611,
+      "median_rhs_jacobian_ref_defect": 0.009288994858316735,
+      "median_rhs_jacobian_geo_defect": 0.011263131651532417,
+      "median_ref_defect_relative": 0.0028490792553645316,
+      "median_geo_defect_relative": 0.0032190967553562136,
+      "median_normalized_defect_change": 0.002010604560060936,
+      "median_self_normalized_defect_change": 0.646499891885997
+    },
+    {
+      "mode": "restart_state_common_direction",
+      "h": 0.004,
+      "rows": 36,
+      "median_mixed_relative": 0.011506987781540082,
+      "median_jacobian_kappa_relative": 0.0015093481236258394,
+      "median_rhs_jacobian_ref_defect": 0.015473200533113605,
+      "median_rhs_jacobian_geo_defect": 0.014128835046914924,
+      "median_ref_defect_relative": 0.0056351429524224925,
+      "median_geo_defect_relative": 0.004854599864444273,
+      "median_normalized_defect_change": 0.00380547647221526,
+      "median_self_normalized_defect_change": 0.5988435558082231
+    },
+    {
+      "mode": "restart_state_common_direction",
+      "h": 0.003,
+      "rows": 36,
+      "median_mixed_relative": 0.010608926126343125,
+      "median_jacobian_kappa_relative": 0.0013951093493050032,
+      "median_rhs_jacobian_ref_defect": 0.02664840509588369,
+      "median_rhs_jacobian_geo_defect": 0.03068554334239209,
+      "median_ref_defect_relative": 0.009441055347815398,
+      "median_geo_defect_relative": 0.010038560323149086,
+      "median_normalized_defect_change": 0.004970687537395277,
+      "median_self_normalized_defect_change": 0.3486116216592642
+    },
+    {
+      "mode": "restart_state_common_direction",
+      "h": 0.002,
+      "rows": 36,
+      "median_mixed_relative": 0.014384899618390158,
+      "median_jacobian_kappa_relative": 0.001438905383041332,
+      "median_rhs_jacobian_ref_defect": 0.07260251296699158,
+      "median_rhs_jacobian_geo_defect": 0.07247685276191629,
+      "median_ref_defect_relative": 0.02679629377975747,
+      "median_geo_defect_relative": 0.02715593755112579,
+      "median_normalized_defect_change": 0.007638552108006109,
+      "median_self_normalized_defect_change": 0.35227871729808224
+    }
+  ],
+  "structural_hessian_status": "NOT_DERIVED: original pinned support RHS source is not bundled; Jacobian pathway remains floating-point differentiated. No exact algebraic component-level decomposition.",
+  "interpretation_gate": "PINNED_JACOBIAN_DIFFERENTIATION_IS_NUMERICAL: evaluate h-plateau of Jacobian-derived sensitivity against RHS stencil. NO EXACT STRUCTURAL HESSIAN claimed. Relative small-residual changes need absolute context.",
+  "original_parent_script_sha256": "f415c5c74af0300820de253d94bff14c05e5802fa10b0b7f328149df169bfeab",
+  "v18_48b_replayed_source_sha256": "1e2f942e39ee031f6eaf6a0b6e90763cf2ba000797f063c68c1d5642c6be3f17"
+}
