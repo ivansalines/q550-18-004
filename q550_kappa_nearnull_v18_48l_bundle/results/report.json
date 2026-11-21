@@ -1,0 +1,119 @@
+{
+  "version": "v18.48l",
+  "classification": "AUTHENTICATED_FIXED_STATE_NEAR_NULL_OBSERVER_GEOMETRY",
+  "provenance": {
+    "parent_zip_sha256": "8bcd3fadcd66d62f8b571acb613d0dc09e658437cf4236d35727adef174b4a85",
+    "parent_verified_members": 27,
+    "nested_v18_48j": {
+      "v18_48j_server_sha256": "76db46b8972723511b60c4d910966b2edc3794c2b2a2764c37846eaacc1d1fa5",
+      "v18_48j_manifest_members": 25,
+      "nested": {
+        "archive_i_sha256": "e351f04ea354d28a027a0af398fa2c56aaa1ab804d5a735d153ec5da67736321",
+        "archive_i_verified_members": 29,
+        "archive_h_sha256": "7b5d66f94626eff99afab32df826eb3b2adeffe54a3957f278c368cf40060533",
+        "archive_h_verified_members": 40,
+        "physical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+        "report_h_sha256": "431f0a24ebb2ceaaf253726393fefa9ca0a8c48b6d7a4c1d0ba7c139b0997fb1",
+        "historical_source_sha256": {
+          "structural_jet.py": "8221474a1213301af3c7395a624d10d3f0c7730893ecf5165b05039ba2cabb01",
+          "test_support_mobius_monodromy_audit.py": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864",
+          "generated_base_jet.py": "43e0c0b075876d55d4c08caabfde28b38b943d689ece024451806e81067611f3",
+          "factorial_math.py": "4c5de14753546fa21ab106b6ed9b37f4f766a93668bafae90bef708731949206"
+        }
+      },
+      "physical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a"
+    },
+    "physical_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a"
+  },
+  "physical_trajectories": 8,
+  "physical_states": 328,
+  "new_original_integrations": 0,
+  "focal_crests": 4,
+  "high_precision_digits": [
+    45,
+    70,
+    90
+  ],
+  "active_rank_cutoffs": [
+    0.0001,
+    1e-06,
+    1e-08,
+    1e-10,
+    1e-12
+  ],
+  "maximum_full_null_step_angle_deg": 71.28573265771288,
+  "parameter_values": {
+    "original": 0.16666666666666666,
+    "autonomous": 0.16659961041764054
+  },
+  "focal": [
+    {
+      "crest": "phaseblind_xi3.575_autonomous",
+      "historical_ratio": 349.79877733833246,
+      "last_singular_by_precision": {
+        "45": "9.080459841046257990515556e-46",
+        "70": "5.739193771243920477690893e-71",
+        "90": "2.582802342162379336348258e-91"
+      },
+      "source_smallest_by_precision": {
+        "45": "0.0000001527616207584013377763673",
+        "70": "0.0000001527616207584013377763673",
+        "90": "0.0000001527616207584013377763673"
+      },
+      "largest_f64_map_error": 5.888832995985242e-16
+    },
+    {
+      "crest": "phaseblind_xi3.575_original",
+      "historical_ratio": 326.5280953628515,
+      "last_singular_by_precision": {
+        "45": "1.897955814082777926171997e-45",
+        "70": "1.938929704680468685035842e-70",
+        "90": "1.404012089817129706410262e-90"
+      },
+      "source_smallest_by_precision": {
+        "45": "0.0000001527668570696321407974883",
+        "70": "0.0000001527668570696321407974883",
+        "90": "0.0000001527668570696321407974883"
+      },
+      "largest_f64_map_error": 3.237164642716968e-16
+    },
+    {
+      "crest": "phasecov_xi4.25_autonomous",
+      "historical_ratio": 59.995692486362856,
+      "last_singular_by_precision": {
+        "45": "4.11197319050200640211062e-45",
+        "70": "9.279907629463574716825777e-70",
+        "90": "9.589862620545378778377389e-91"
+      },
+      "source_smallest_by_precision": {
+        "45": "0.00000180801539110201917995931",
+        "70": "0.00000180801539110201917995931",
+        "90": "0.00000180801539110201917995931"
+      },
+      "largest_f64_map_error": 1.8207504633925382e-16
+    },
+    {
+      "crest": "phasecov_xi4.25_original",
+      "historical_ratio": 59.96769091659693,
+      "last_singular_by_precision": {
+        "45": "1.506953220762068775834363e-45",
+        "70": "9.257353580042411703176083e-70",
+        "90": "1.879476755483629907105776e-90"
+      },
+      "source_smallest_by_precision": {
+        "45": "0.0000018150120316568356188416",
+        "70": "0.0000018150120316568356188416",
+        "90": "0.0000018150120316568356188416"
+      },
+      "largest_f64_map_error": 1.817837264397477e-16
+    }
+  ],
+  "warnings": [
+    "SVD minima at precision floors do not by themselves prove an exact algebraic null.",
+    "The source-active generalized subspace is cutoff-dependent, not a unique canonical observer.",
+    "Adjacency compares instantaneous subspaces along authentic prior Q550 trajectories: no observer adjoint transport is integrated here.",
+    "All Q550 state inputs are floating point; arbitrary precision does not recover an exact trajectory.",
+    "Full-null cancellation ratio from float64 can be severely inaccurate; prefer high-precision focal checks.",
+    "No physical hysteresis or intrinsic material torsion is inferred from observer-space singular geometry."
+  ]
+}

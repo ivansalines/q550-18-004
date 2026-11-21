@@ -1,0 +1,83 @@
+test_active_cutoff_rank (test_nearnull.GeometryTests.test_active_cutoff_rank) ... ok
+test_line_angle_sign_invariant (test_nearnull.GeometryTests.test_line_angle_sign_invariant) ... ok
+test_no_false_rank_certificate (test_nearnull.GeometryTests.test_no_false_rank_certificate) ... ok
+test_null_vs_source (test_nearnull.GeometryTests.test_null_vs_source) ... ok
+test_second_jet_square (test_nearnull.GeometryTests.test_second_jet_square) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.017s
+
+OK
+FOCAL phaseblind original 3.575 R 326.528095
+FOCAL phaseblind autonomous 3.575 R 349.798777
+FOCAL phasecov_d original 4.25 R 59.967691
+FOCAL phasecov_d autonomous 4.25 R 59.995692
+{
+  "classification": "AUTHENTICATED_FIXED_STATE_NEAR_NULL_OBSERVER_GEOMETRY",
+  "states": 328,
+  "high_precision_checks": 12,
+  "maximum_adjacent_full_null_angle_deg": 71.28573265771288,
+  "focal": [
+    {
+      "crest": "phaseblind_xi3.575_autonomous",
+      "historical_ratio": 349.79877733833246,
+      "last_singular_by_precision": {
+        "45": "9.080459841046257990515556e-46",
+        "70": "5.739193771243920477690893e-71",
+        "90": "2.582802342162379336348258e-91"
+      },
+      "source_smallest_by_precision": {
+        "45": "0.0000001527616207584013377763673",
+        "70": "0.0000001527616207584013377763673",
+        "90": "0.0000001527616207584013377763673"
+      },
+      "largest_f64_map_error": 5.888832995985242e-16
+    },
+    {
+      "crest": "phaseblind_xi3.575_original",
+      "historical_ratio": 326.5280953628515,
+      "last_singular_by_precision": {
+        "45": "1.897955814082777926171997e-45",
+        "70": "1.938929704680468685035842e-70",
+        "90": "1.404012089817129706410262e-90"
+      },
+      "source_smallest_by_precision": {
+        "45": "0.0000001527668570696321407974883",
+        "70": "0.0000001527668570696321407974883",
+        "90": "0.0000001527668570696321407974883"
+      },
+      "largest_f64_map_error": 3.237164642716968e-16
+    },
+    {
+      "crest": "phasecov_xi4.25_autonomous",
+      "historical_ratio": 59.995692486362856,
+      "last_singular_by_precision": {
+        "45": "4.11197319050200640211062e-45",
+        "70": "9.279907629463574716825777e-70",
+        "90": "9.589862620545378778377389e-91"
+      },
+      "source_smallest_by_precision": {
+        "45": "0.00000180801539110201917995931",
+        "70": "0.00000180801539110201917995931",
+        "90": "0.00000180801539110201917995931"
+      },
+      "largest_f64_map_error": 1.8207504633925382e-16
+    },
+    {
+      "crest": "phasecov_xi4.25_original",
+      "historical_ratio": 59.96769091659693,
+      "last_singular_by_precision": {
+        "45": "1.506953220762068775834363e-45",
+        "70": "9.257353580042411703176083e-70",
+        "90": "1.879476755483629907105776e-90"
+      },
+      "source_smallest_by_precision": {
+        "45": "0.0000018150120316568356188416",
+        "70": "0.0000018150120316568356188416",
+        "90": "0.0000018150120316568356188416"
+      },
+      "largest_f64_map_error": 1.817837264397477e-16
+    }
+  ]
+}
+SENDBACK /root/elab1/hysteresis/q550_kappa_nearnull_v18_48l_bundle/sendback.zip VERIFIED_FILES 25

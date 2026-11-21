@@ -1,0 +1,32 @@
+{
+  "version": "v18.48l",
+  "root": "q550_kappa_nearnull_v18_48l_bundle",
+  "file_count": 25,
+  "files": {
+    "ENVIRONMENT.json": "6866e402fe3934e51627b051f3e29de2c76d5093662e1c0affc9d53788245550",
+    "README.md": "1e48092b638b436c2a77a68fbc156cdde34cbb27e6dede335627f9873cd3ad2c",
+    "SCIENTIFIC_DECISION_RULES.md": "db109ed9953f8e156e4a8dd4256c922b7717602c1138593cb6c0f18af4100396",
+    "inputs/SOURCE_PINS.json": "6667fd2b2b8f467eb3c02d3e473ab7d3471260a40762c1db0f3b97644f910f8b",
+    "inputs/v18_48k_original_server_sendback.zip": "8bcd3fadcd66d62f8b571acb613d0dc09e658437cf4236d35727adef174b4a85",
+    "reference/generated_base_jet.py": "43e0c0b075876d55d4c08caabfde28b38b943d689ece024451806e81067611f3",
+    "reference/observer_geometry_v18_48k.py": "8133c64f96f96e1c5f24848419b8c6d42cc2da1a67ecff513b6984b48bb31dd8",
+    "reference/structural_jet.py": "8221474a1213301af3c7395a624d10d3f0c7730893ecf5165b05039ba2cabb01",
+    "reference/test_support_mobius_monodromy_audit.py": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864",
+    "requirements.txt": "6fa372f33d333233456826c919caf259c10c19772050511507bc8feaa19863ef",
+    "results/full_null_singular_atlas.csv": "d0b3fabe7c65f7d28205b2373cff81c52b834585b33707c09e7587bba3b18656",
+    "results/high_precision_focal_checks.csv": "195bb14b5f7ff2c2c9d189fe6ae3bdbc96eca725189f9e25a29305290d6142b7",
+    "results/phaseblind_near_null_continuation.png": "956bad4da5b322bf854634b51ec288aee29528ae06d5c10f18101888a514d38a",
+    "results/phasecov_near_null_continuation.png": "0fd6c4b181e2b0d6174f6c9621e20188434da006b4f29c0de1d09ee7f05699c0",
+    "results/report.json": "e106b427af5dcb3ae5b9103b75c0fe5be92366d11d6feb19c189d28e65874716",
+    "results/source_active_continuation.csv": "b2562543536bf7dcc49ea9eb5ee85d82715acf10d5ff9e6aca2854b04f0d5660",
+    "results/source_active_cutoff_sweep.csv": "eb5d92b6c8b79743d3c95c8661558798c6e7aafbe66b83376e33694847a046d3",
+    "run_on_server.sh": "ef8b3b01026b96756edf76f0b3f1cc27349519eaaf09b24d03617fad6ede3fb4",
+    "scripts/high_precision.py": "8e9fb08c67c63bf76f6168c56530c4e93cc4ad77d3b2cb199f8cef99ef22a3de",
+    "scripts/pack_sendback.py": "06a6e11aed1182e43078a4318f33c3008b44d2e7c1ec5604aad78b4ac6f5cace",
+    "scripts/plot_results.py": "0ef591fd7a0465d5767908eb20b992678cadb5cbc4e25aedc0f0f785a9d59814",
+    "scripts/run_audit.py": "31217f4ac0e5fd989ea35625202e2913257d533e4a8bb76ff34ed4e6c234ec0f",
+    "scripts/subspace_math.py": "d7da8f259b0e519f5f15ec975e8d6329898709eb4d4750f17a9bf55c126bc55b",
+    "scripts/verify_parent.py": "bdf4014efdbce464f63bdf19061c194917bd279c9c214ff4811081a98b7b86df",
+    "tests/test_nearnull.py": "31fb8787422f9d059e6d6b38f5d058f45eb51858ecc13e8216857d49a742728f"
+  }
+}

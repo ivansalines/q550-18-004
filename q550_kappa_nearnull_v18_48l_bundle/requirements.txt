@@ -1,0 +1,5 @@
+# Python 3.13 recommended, exact versions recorded in ENVIRONMENT.json
+numpy
+scipy
+mpmath
+matplotlib
