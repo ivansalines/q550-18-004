@@ -1,0 +1,464 @@
+{
+  "version": "v18.48h",
+  "status": "GENUINE_Q550_INITIAL_VALUE_SECTION_CONTINUATION_NOT_BRANCH_BVP_CERTIFICATE",
+  "source_v18_48e_SHA256": {
+    "structural_snapshot_states.npz": "cdb8b0c668160d593a2ddfe1c1ab88e3f2e3756ea3f6d9f80a890d05d34f0a30",
+    "structural_snapshots.csv": "ae31e0d45b84c462b8982abc753c27b004f84058f9c6f9c2ad34dbc5e1e8e78b",
+    "case_integrations.csv": "f2ee852d26169c2e70e3b2a23336201d6c159155d07174c14e4a666bc3b7b6ea",
+    "report.json": "2e76de37e6627362d4b6276675282928c0d32dcbb79a53a02f133bf31629e809"
+  },
+  "parent_v18_48g_zip_sha256": "853ae9efcac1f249159c3b7bb888991658f11605466a4c0bcbecb540a9056f1d",
+  "original_source_sha256": {
+    "audit": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864",
+    "support": "5b5938e7920b2ecd242fb8f416a18c7c47ae10aa06e027e0727f15e284c98c61",
+    "tube": "a9d1ec342c268da8e721dc641cab8cc4cf39f69d821dfd4191163833ba04e881"
+  },
+  "kappa_original": 0.16666666666666666,
+  "kappa_autonomous": 0.16659961041764054,
+  "delta_kappa": -6.705624902611507e-05,
+  "genuinely_integrated_IVPs": 8,
+  "common_section_count": 21,
+  "total_genuine_trajectory_states": 168,
+  "observation_rows": 1512,
+  "preserved_seed_branch_identity": true,
+  "no_intermediate_state_interpolation": true,
+  "common_section": "Theta(xi) - Theta(3.5) = 2pi*slope*(xi-3.5) after exact phase-gauge normalization",
+  "caveat_seed_phase_offset": "Historical xi=3.5 state is recorded at 0.125*T, about 1e-7 after reference xi. End-section comparison is aligned to its own initial clock. No assertion of interval-certified event location.",
+  "clock_speed": 0.844357915384206,
+  "max_clock_section_absolute_error": 1.4432899320127035e-15,
+  "max_original_rhs_vs_analytic_relative": 1.1362966390550436e-15,
+  "max_original_rhs_phase_gauge_relative_error": 2.3951041978228136e-13,
+  "max_instantaneous_activity_coupling_norm": 0.0,
+  "instantaneous_activity_coupling_kernel_is_exactly_zero": true,
+  "independent_target_comparisons": 32,
+  "nearest_target_matches_within_threshold": 0,
+  "independent_target_comparisons_per_seed": 16,
+  "minimum_best_endpoint_chart_distance": 5764.783389345654,
+  "median_best_endpoint_chart_distance": 144189.26200976764,
+  "maximum_best_endpoint_chart_distance": 183817.7766879747,
+  "declared_chart_distance_threshold": 0.25,
+  "median_best_endpoint_unit_scaled_distance": 1.270925607432969,
+  "observer_definitions": {
+    "historical_transport": "Original fitted covector at xi3.5 only, transported by actual cotangent variational equation; not reoptimized at intermediate sections",
+    "activity_sin_recomputed": "Fresh frozen-chart gradient of exp(y1+y2)*sin(delta) at each actual state",
+    "activity_cos_recomputed": "Fresh frozen-chart gradient of exp(y1+y2)*cos(delta) at each actual state",
+    "activity_sin_transport": "Transported initial activity_sin gradient with -J_chart.T",
+    "activity_cos_transport": "Transported initial activity_cos gradient with -J_chart.T",
+    "activity_sin_lie_recomputed": "New exact-Jacobian chart gradient of d(activity_sin)/dxi at each actual state",
+    "activity_cos_lie_recomputed": "New exact-Jacobian chart gradient of d(activity_cos)/dxi at each actual state",
+    "activity_sin_lie_transport": "Initial Lie derivative activity_sin gradient transported by -J_chart.T",
+    "activity_cos_lie_transport": "Initial Lie derivative activity_cos gradient transported by -J_chart.T"
+  },
+  "phase_alignment_original_model_symmetry": "(theta1,Theta)->(theta1+c,Theta+c), independent angular 2pi lifts",
+  "branches_are_independently_seeded_at_each_reference_xi": true,
+  "crossings_are_sampled_sign_changes_only": true,
+  "reference_crossings": [
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "original",
+      "observer_mode": "activity_cos_lie_recomputed",
+      "crossings_linear_interpolated": [
+        3.5006052561322996,
+        4.244642159877855
+      ],
+      "sign_change_count": 2,
+      "minimum_log_balance": -0.02666806218323742,
+      "maximum_log_balance": 0.0017016369290953884
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "original",
+      "observer_mode": "activity_cos_lie_transport",
+      "crossings_linear_interpolated": [
+        3.5006818618262456,
+        4.204713106209169,
+        4.267685402888366
+      ],
+      "sign_change_count": 3,
+      "minimum_log_balance": -0.1638725514784991,
+      "maximum_log_balance": 0.07154053245789581
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "original",
+      "observer_mode": "activity_cos_recomputed",
+      "crossings_linear_interpolated": [],
+      "sign_change_count": 0,
+      "minimum_log_balance": 0.0,
+      "maximum_log_balance": 0.0
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "original",
+      "observer_mode": "activity_cos_transport",
+      "crossings_linear_interpolated": [],
+      "sign_change_count": 0,
+      "minimum_log_balance": -0.03260303587008463,
+      "maximum_log_balance": 0.0
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "original",
+      "observer_mode": "activity_sin_lie_recomputed",
+      "crossings_linear_interpolated": [
+        3.8065742488727685
+      ],
+      "sign_change_count": 1,
+      "minimum_log_balance": -0.0251080922948861,
+      "maximum_log_balance": 0.1629486860409756
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "original",
+      "observer_mode": "activity_sin_lie_transport",
+      "crossings_linear_interpolated": [
+        3.6163562961854643,
+        3.789807341144184
+      ],
+      "sign_change_count": 2,
+      "minimum_log_balance": -0.0008872360158161959,
+      "maximum_log_balance": 0.1629486860409756
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "original",
+      "observer_mode": "activity_sin_recomputed",
+      "crossings_linear_interpolated": [],
+      "sign_change_count": 0,
+      "minimum_log_balance": 0.0,
+      "maximum_log_balance": 0.0
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "original",
+      "observer_mode": "activity_sin_transport",
+      "crossings_linear_interpolated": [
+        3.6763187825750316,
+        4.048904411472908,
+        4.495390745036574
+      ],
+      "sign_change_count": 3,
+      "minimum_log_balance": -0.05506339534621109,
+      "maximum_log_balance": 0.43394456673081006
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "original",
+      "observer_mode": "historical_transport",
+      "crossings_linear_interpolated": [
+        4.00409391451022
+      ],
+      "sign_change_count": 1,
+      "minimum_log_balance": -1.5285148571254663,
+      "maximum_log_balance": 4.022712664698578
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "autonomous",
+      "observer_mode": "activity_cos_lie_recomputed",
+      "crossings_linear_interpolated": [
+        3.5006051539640186,
+        4.244769219099471
+      ],
+      "sign_change_count": 2,
+      "minimum_log_balance": -0.026682074834299057,
+      "maximum_log_balance": 0.0016985419229610767
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "autonomous",
+      "observer_mode": "activity_cos_lie_transport",
+      "crossings_linear_interpolated": [
+        3.50068175588751,
+        4.20472253605068,
+        4.267682668089142
+      ],
+      "sign_change_count": 3,
+      "minimum_log_balance": -0.16382461933703935,
+      "maximum_log_balance": 0.07160128607277681
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "autonomous",
+      "observer_mode": "activity_cos_recomputed",
+      "crossings_linear_interpolated": [],
+      "sign_change_count": 0,
+      "minimum_log_balance": 0.0,
+      "maximum_log_balance": 0.0
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "autonomous",
+      "observer_mode": "activity_cos_transport",
+      "crossings_linear_interpolated": [],
+      "sign_change_count": 0,
+      "minimum_log_balance": -0.03262185844336118,
+      "maximum_log_balance": 0.0
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "autonomous",
+      "observer_mode": "activity_sin_lie_recomputed",
+      "crossings_linear_interpolated": [
+        3.8066206449814257
+      ],
+      "sign_change_count": 1,
+      "minimum_log_balance": -0.025115736865003544,
+      "maximum_log_balance": 0.16298640681086252
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "autonomous",
+      "observer_mode": "activity_sin_lie_transport",
+      "crossings_linear_interpolated": [
+        3.616365676966456,
+        3.7899406360395616
+      ],
+      "sign_change_count": 2,
+      "minimum_log_balance": -0.0008877513160892709,
+      "maximum_log_balance": 0.16298640681086252
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "autonomous",
+      "observer_mode": "activity_sin_recomputed",
+      "crossings_linear_interpolated": [],
+      "sign_change_count": 0,
+      "minimum_log_balance": 0.0,
+      "maximum_log_balance": 0.0
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "autonomous",
+      "observer_mode": "activity_sin_transport",
+      "crossings_linear_interpolated": [
+        3.676356321334691,
+        4.048908278049833,
+        4.4955037109596985
+      ],
+      "sign_change_count": 3,
+      "minimum_log_balance": -0.05485804887634456,
+      "maximum_log_balance": 0.4777888798938959
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "autonomous",
+      "observer_mode": "historical_transport",
+      "crossings_linear_interpolated": [
+        4.0040016875269275
+      ],
+      "sign_change_count": 1,
+      "minimum_log_balance": -1.5656191537403201,
+      "maximum_log_balance": 4.010963409404727
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "original",
+      "observer_mode": "activity_cos_lie_recomputed",
+      "crossings_linear_interpolated": [
+        3.9233341524302787,
+        3.992969187021783,
+        4.019124462952571,
+        4.060136343606846
+      ],
+      "sign_change_count": 4,
+      "minimum_log_balance": -0.00039230880386891687,
+      "maximum_log_balance": 0.0022580322052281557
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "original",
+      "observer_mode": "activity_cos_lie_transport",
+      "crossings_linear_interpolated": [
+        3.868845658215858,
+        3.9350816196939395,
+        4.173019462986161,
+        4.350000478252261
+      ],
+      "sign_change_count": 4,
+      "minimum_log_balance": -0.0014262718990922494,
+      "maximum_log_balance": 0.3649749406786207
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "original",
+      "observer_mode": "activity_cos_recomputed",
+      "crossings_linear_interpolated": [],
+      "sign_change_count": 0,
+      "minimum_log_balance": 0.0,
+      "maximum_log_balance": 0.0
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "original",
+      "observer_mode": "activity_cos_transport",
+      "crossings_linear_interpolated": [],
+      "sign_change_count": 0,
+      "minimum_log_balance": 0.0,
+      "maximum_log_balance": 0.0705487828617273
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "original",
+      "observer_mode": "activity_sin_lie_recomputed",
+      "crossings_linear_interpolated": [
+        3.707957502222053
+      ],
+      "sign_change_count": 1,
+      "minimum_log_balance": -0.024959518601513127,
+      "maximum_log_balance": 0.0059610809399306625
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "original",
+      "observer_mode": "activity_sin_lie_transport",
+      "crossings_linear_interpolated": [
+        4.142182382976078,
+        4.163406068568101
+      ],
+      "sign_change_count": 2,
+      "minimum_log_balance": -1.7678079930608326,
+      "maximum_log_balance": 0.022359714485930007
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "original",
+      "observer_mode": "activity_sin_recomputed",
+      "crossings_linear_interpolated": [],
+      "sign_change_count": 0,
+      "minimum_log_balance": 0.0,
+      "maximum_log_balance": 0.0
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "original",
+      "observer_mode": "activity_sin_transport",
+      "crossings_linear_interpolated": [
+        3.609384184205408,
+        3.9792571517621416,
+        4.191267704888948
+      ],
+      "sign_change_count": 3,
+      "minimum_log_balance": -0.010636224470560044,
+      "maximum_log_balance": 0.09790103568561818
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "original",
+      "observer_mode": "historical_transport",
+      "crossings_linear_interpolated": [
+        3.520057271055175,
+        3.585032420239322,
+        4.003868455101576
+      ],
+      "sign_change_count": 3,
+      "minimum_log_balance": -1.6838929960516442,
+      "maximum_log_balance": 4.093805894561818
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "autonomous",
+      "observer_mode": "activity_cos_lie_recomputed",
+      "crossings_linear_interpolated": [
+        3.923391083026827,
+        3.9930368622981725,
+        4.01894263615261,
+        4.060179900224984
+      ],
+      "sign_change_count": 4,
+      "minimum_log_balance": -0.000392084191945111,
+      "maximum_log_balance": 0.0022596940300252523
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "autonomous",
+      "observer_mode": "activity_cos_lie_transport",
+      "crossings_linear_interpolated": [
+        3.8688821974387735,
+        3.9351282295406844,
+        4.173080152795679,
+        4.350000476474685
+      ],
+      "sign_change_count": 4,
+      "minimum_log_balance": -0.001521344040805981,
+      "maximum_log_balance": 0.3650471065143645
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "autonomous",
+      "observer_mode": "activity_cos_recomputed",
+      "crossings_linear_interpolated": [],
+      "sign_change_count": 0,
+      "minimum_log_balance": 0.0,
+      "maximum_log_balance": 0.0
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "autonomous",
+      "observer_mode": "activity_cos_transport",
+      "crossings_linear_interpolated": [],
+      "sign_change_count": 0,
+      "minimum_log_balance": 0.0,
+      "maximum_log_balance": 0.07048321871355004
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "autonomous",
+      "observer_mode": "activity_sin_lie_recomputed",
+      "crossings_linear_interpolated": [
+        3.7079903128319116
+      ],
+      "sign_change_count": 1,
+      "minimum_log_balance": -0.024967522894024707,
+      "maximum_log_balance": 0.005960684357919946
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "autonomous",
+      "observer_mode": "activity_sin_lie_transport",
+      "crossings_linear_interpolated": [
+        4.1423194736930515,
+        4.163212426287941
+      ],
+      "sign_change_count": 2,
+      "minimum_log_balance": -1.7695109540030816,
+      "maximum_log_balance": 0.021931784240361196
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "autonomous",
+      "observer_mode": "activity_sin_recomputed",
+      "crossings_linear_interpolated": [],
+      "sign_change_count": 0,
+      "minimum_log_balance": 0.0,
+      "maximum_log_balance": 0.0
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "autonomous",
+      "observer_mode": "activity_sin_transport",
+      "crossings_linear_interpolated": [
+        3.6093985406873172,
+        3.9794135513750533,
+        4.191367454407107
+      ],
+      "sign_change_count": 3,
+      "minimum_log_balance": -0.010491808921216808,
+      "maximum_log_balance": 0.0993395363011196
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "kappa_kind": "autonomous",
+      "observer_mode": "historical_transport",
+      "crossings_linear_interpolated": [
+        3.5200911666686707,
+        3.5850319790001226,
+        4.003877809557011
+      ],
+      "sign_change_count": 3,
+      "minimum_log_balance": -1.6838244998044691,
+      "maximum_log_balance": 4.094272729652435
+    }
+  ],
+  "limitations": "The continuation is a genuine Q550 IVP through common lifted clock sections, NOT a physical branch-connected BVP, parameter-continuation proof, invariant observer, or interval certificate. Original independently seeded branches at xi4 and 4.5 may not lie on propagated seed paths. Activity observables are model-defined, not the historical fitted source gradient. Binary64 solver tolerances are numerical diagnostics, not certified enclosures."
+}
