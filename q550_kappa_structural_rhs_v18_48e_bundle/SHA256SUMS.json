@@ -1,0 +1,25 @@
+{
+  "version": "v18.48e",
+  "root": "q550_kappa_structural_rhs_v18_48e_bundle",
+  "source_sha256": {
+    "support": "5b5938e7920b2ecd242fb8f416a18c7c47ae10aa06e027e0727f15e284c98c61",
+    "audit": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864",
+    "tube": "a9d1ec342c268da8e721dc641cab8cc4cf39f69d821dfd4191163833ba04e881"
+  },
+  "files": {
+    "README.md": "1a6932ac4aedc783e48b59e225750f9b52df0304cbed700a0d409abf69e2193c",
+    "reference/test_support_mobius_monodromy_audit.py": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864",
+    "reference/test_support_q550_exact_nonlinear_local_tube_v2_1.py": "a9d1ec342c268da8e721dc641cab8cc4cf39f69d821dfd4191163833ba04e881",
+    "reference/test_support_q550_support_ode_interval_residual_pilot_v1.py": "5b5938e7920b2ecd242fb8f416a18c7c47ae10aa06e027e0727f15e284c98c61",
+    "reference/v18_48d_run_audit.py": "1e2f942e39ee031f6eaf6a0b6e90763cf2ba000797f063c68c1d5642c6be3f17",
+    "requirements.txt": "9ac21aa5a135f1c16f5fcff8f425354f1f39fbad9e6eb04caa57b79530ba80f5",
+    "run_on_server.sh": "b994849e61e16f8218c17a7946bf37e612b1b4ba83d79eb4cb05e44f744e7a54",
+    "scripts/generate_structural_math.py": "a5aa46208900ccdeb33aaa6765666807b51fb357ace78180b96956d8fda50bbd",
+    "scripts/generated_base_jet.py": "43e0c0b075876d55d4c08caabfde28b38b943d689ece024451806e81067611f3",
+    "scripts/pack_sendback.py": "92401ada62f6b158a2015fd2ab361015d58cb11a90aa856947760327ca78a302",
+    "scripts/run_audit.py": "10c866d195956505ba999a60f157334e092db61583520300381e40c5244c74c1",
+    "scripts/structural_jet.py": "8221474a1213301af3c7395a624d10d3f0c7730893ecf5165b05039ba2cabb01",
+    "tests/test_original_source_equivalence.py": "351e1cc4e81f7f62ac56c4f1595049b790d03a2f6f3972b8d629448aca0cb622",
+    "tests/test_structural_jet.py": "dfd1f24a689e0384ffe72e145e8bdc9db717eccf80f6b8490e9c5c2673f02a54"
+  }
+}

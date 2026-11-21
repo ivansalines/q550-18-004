@@ -1,0 +1,33 @@
+test_original_rhs_and_jacobian (test_original_source_equivalence.OriginalEquivalence.test_original_rhs_and_jacobian) ... ok
+test_affine_in_kappa (test_structural_jet.Test.test_affine_in_kappa) ... ok
+test_coupling_hessian_analytic (test_structural_jet.Test.test_coupling_hessian_analytic) ... ok
+test_full_model_symbolic_jet (test_structural_jet.Test.test_full_model_symbolic_jet) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 3.513s
+
+OK
+v18.48e phasecov_d2_lam-1.00_mod+0.00|xi=3.5|branch=0 snapshot 3
+v18.48e phasecov_d2_lam-1.00_mod+0.00|xi=3.5|branch=1 snapshot 3
+v18.48e phasecov_d2_lam-1.00_mod+0.00|xi=4|branch=0 snapshot 3
+v18.48e phasecov_d2_lam-1.00_mod+0.00|xi=4|branch=1 snapshot 3
+v18.48e phasecov_d2_lam-1.00_mod+0.00|xi=4.5|branch=0 snapshot 3
+v18.48e phasecov_d2_lam-1.00_mod+0.00|xi=4.5|branch=1 snapshot 3
+v18.48e phaseblind_d2_lam-1.00_mod+0.00|xi=3.5|branch=0 snapshot 3
+v18.48e phaseblind_d2_lam-1.00_mod+0.00|xi=3.5|branch=1 snapshot 3
+v18.48e phaseblind_d2_lam-1.00_mod+0.00|xi=4|branch=0 snapshot 3
+v18.48e phaseblind_d2_lam-1.00_mod+0.00|xi=4|branch=1 snapshot 3
+v18.48e phaseblind_d2_lam-1.00_mod+0.00|xi=4.5|branch=0 snapshot 3
+v18.48e phaseblind_d2_lam-1.00_mod+0.00|xi=4.5|branch=1 snapshot 3
+{
+  "status": "ORIGINAL_Q550_ANALYTIC_STRUCTURAL_HESSIAN_FIXED_STATE",
+  "original_snapshot_count": 36,
+  "case_count": 12,
+  "original_integrations": 13,
+  "max_rhs_pinned_relative": 7.787195175331109e-15,
+  "max_jac_pinned_relative": 6.251057988292245e-15,
+  "max_delta_tensor_identity_relative": 7.664053365616019e-13,
+  "median_exact_full_hessian_delta_relative": 0.00018441259821867412,
+  "median_exact_chart_kernel_delta_relative": 0.0014796922405574003
+}
+SENDBACK /root/elab1/hysteresis/q550_kappa_structural_rhs_v18_48e_bundle/sendback.zip members 23

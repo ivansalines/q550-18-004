@@ -1,0 +1,7 @@
+# Original Q550 server (runtime)
+numpy
+scipy
+mpmath
+pandas
+# Optional only to regenerate compiled analytic equations:
+# sympy>=1.12
