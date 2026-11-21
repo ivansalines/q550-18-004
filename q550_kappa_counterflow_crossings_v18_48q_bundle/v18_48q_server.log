@@ -1,0 +1,61 @@
+test_nontrivial_pair_phase_mismatch (test_crossing_math.GeometryTests.test_nontrivial_pair_phase_mismatch) ... ok
+test_periodic_phase (test_crossing_math.GeometryTests.test_periodic_phase) ... ok
+test_shape_logit (test_crossing_math.GeometryTests.test_shape_logit) ... ok
+test_shape_not_phase (test_crossing_math.GeometryTests.test_shape_not_phase) ... ok
+test_true_free_curve_in_3D (test_crossing_math.GeometryTests.test_true_free_curve_in_3D) ... ok
+test_turnaround_exclusion_progress (test_crossing_math.GeometryTests.test_turnaround_exclusion_progress) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.219s
+
+OK
+v18.48q phaseblind_d2_lam-1.00_mod+0.00 0 autonomous source-regression 1.695e-14 protocols 10
+v18.48q phaseblind_d2_lam-1.00_mod+0.00 0 original source-regression 2.071e-14 protocols 10
+v18.48q phaseblind_d2_lam-1.00_mod+0.00 1 autonomous source-regression 8.298e-12 protocols 10
+v18.48q phaseblind_d2_lam-1.00_mod+0.00 1 original source-regression 8.898e-12 protocols 10
+v18.48q phasecov_d2_lam-1.00_mod+0.00 0 autonomous source-regression 2.703e-13 protocols 10
+v18.48q phasecov_d2_lam-1.00_mod+0.00 0 original source-regression 1.619e-12 protocols 10
+v18.48q phasecov_d2_lam-1.00_mod+0.00 1 autonomous source-regression 2.754e-13 protocols 10
+v18.48q phasecov_d2_lam-1.00_mod+0.00 1 original source-regression 2.789e-13 protocols 10
+{
+  "integrations": 88,
+  "new_11D_counterflows": 80,
+  "comparisons": 160,
+  "energy_residual": 2.048708425128609e-15,
+  "source_regression": 8.89826605616997e-12,
+  "phaseclosed_rate1": {
+    "count": 16,
+    "endpoint_shape": {
+      "min": 0.017078781373470103,
+      "median": 0.2085158492341724,
+      "max": 0.5458851589739014
+    },
+    "matched_min_shape": {
+      "min": 0.0010465410156022604,
+      "median": 0.006125579374846762,
+      "max": 0.17366896191498515
+    },
+    "free_min_shape": {
+      "min": 7.724176848450847e-05,
+      "median": 0.0053907184063493535,
+      "max": 0.5685071079716317
+    },
+    "endpoint_energy_difference": {
+      "min": -0.0072060031924738865,
+      "median": -0.001808756590524263,
+      "max": 0.018266168273686434
+    },
+    "delta_E": {
+      "min": -0.011198790710607254,
+      "median": 0.009095281193691296,
+      "max": 0.019621018973200233
+    },
+    "command_work": {
+      "min": -0.009241850219189713,
+      "median": 0.01223783197947518,
+      "max": 0.020723262231931747
+    }
+  }
+}
+Generated 4 diagnostic plots.
+Packed /root/elab1/hysteresis/q550_kappa_counterflow_crossings_v18_48q_bundle/sendback.zip, 24 SHA-256-verified members
