@@ -1,0 +1,57 @@
+test_antiparallel (test_factorial.FactorialTests.test_antiparallel) ... ok
+test_null_not_promoted (test_factorial.FactorialTests.test_null_not_promoted) ... ok
+test_three_factors (test_factorial.FactorialTests.test_three_factors) ... ok
+test_two_factors_additive (test_factorial.FactorialTests.test_two_factors_additive) ... ok
+test_two_factors_interaction (test_factorial.FactorialTests.test_two_factors_interaction) ... ok
+test_vector_closure (test_factorial.FactorialTests.test_vector_closure) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.177s
+
+OK
+AUTHENTICATED /root/elab1/hysteresis/q550_kappa_state_observer_v18_48i_bundle/parent_authenticated/q550_kappa_physical_section_v18_48h_bundle {"zip_sha256": "7b5d66f94626eff99afab32df826eb3b2adeffe54a3957f278c368cf40060533", "verified_members": 41, "archive_root": "q550_kappa_physical_section_v18_48h_bundle"}
+v18.48h phaseblind_d2_lam-1.00_mod+0.00 seed_branch 0 original physical xi 3.5->4.5 evaluations 941
+v18.48h phaseblind_d2_lam-1.00_mod+0.00 seed_branch 0 autonomous physical xi 3.5->4.5 evaluations 941
+v18.48h phaseblind_d2_lam-1.00_mod+0.00 seed_branch 1 original physical xi 3.5->4.5 evaluations 989
+v18.48h phaseblind_d2_lam-1.00_mod+0.00 seed_branch 1 autonomous physical xi 3.5->4.5 evaluations 989
+v18.48h phasecov_d2_lam-1.00_mod+0.00 seed_branch 0 original physical xi 3.5->4.5 evaluations 941
+v18.48h phasecov_d2_lam-1.00_mod+0.00 seed_branch 0 autonomous physical xi 3.5->4.5 evaluations 953
+v18.48h phasecov_d2_lam-1.00_mod+0.00 seed_branch 1 original physical xi 3.5->4.5 evaluations 941
+v18.48h phasecov_d2_lam-1.00_mod+0.00 seed_branch 1 autonomous physical xi 3.5->4.5 evaluations 941
+{
+  "status": "GENUINE_Q550_INITIAL_VALUE_SECTION_CONTINUATION_NOT_BRANCH_BVP_CERTIFICATE",
+  "genuinely_integrated_IVPs": 8,
+  "common_section_count": 41,
+  "observation_rows": 2952,
+  "max_clock_section_absolute_error": 1.4432899320127035e-15,
+  "median_best_endpoint_chart_distance": 144189.26200976752,
+  "nearest_target_matches_within_threshold": 0
+}
+{
+  "status": "ANALYTIC_HESSIAN_GENUINE_IVP_FROZEN_CHART_FACTORIAL_DIAGNOSTIC",
+  "sections": 41,
+  "time_rows": 4800,
+  "kappa_rows": 984,
+  "crest_historical": {
+    "cancellation_ratio_start": 1.0000478306388456,
+    "cancellation_ratio_state_only": 1.137350120318197,
+    "cancellation_ratio_observer_only": 2.478181168484291,
+    "cancellation_ratio_end": 59.96769091659618,
+    "log_cancel_change": 4.0937581029687395,
+    "log_cancel_state_shapley": 1.6574671562348446,
+    "log_cancel_observer_shapley": 2.436290946733895,
+    "state_observer_interaction_log": 3.0576277698518486,
+    "normalized_covector_cosine": 0.9999166949432904,
+    "resultant_norm_end": 0.23891795950460365,
+    "near_singular_resultant_end": false
+  },
+  "crest_kappa": {
+    "original_ratio": 59.96769091659618,
+    "autonomous_ratio": 59.99569248636321,
+    "delta_log_ratio": 0.0004668352872556625,
+    "state_shapley": -0.02758213482499065,
+    "observer_shapley": 0.016160472965378,
+    "kappa_shapley": 0.011888497146868312
+  }
+}
+SENDBACK /root/elab1/hysteresis/q550_kappa_state_observer_v18_48i_bundle/sendback.zip members 30

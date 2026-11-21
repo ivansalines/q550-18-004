@@ -1,0 +1,8 @@
+{
+  "v18_48h_original_server_zip_sha256": "7b5d66f94626eff99afab32df826eb3b2adeffe54a3957f278c368cf40060533",
+  "v18_48h_verified_archive_members": 41,
+  "actual_parent_paths_sha256": "3d78ce41378b3ce0fb955a281baae1d4bb6f8d107ab17c718cbbdb2a6696405a",
+  "actual_parent_report_sha256": "431f0a24ebb2ceaaf253726393fefa9ca0a8c48b6d7a4c1d0ba7c139b0997fb1",
+  "new_refined_ivp": true,
+  "parent_classification": "GENUINE_Q550_INITIAL_VALUE_SECTION_CONTINUATION_NOT_BRANCH_BVP_CERTIFICATE"
+}

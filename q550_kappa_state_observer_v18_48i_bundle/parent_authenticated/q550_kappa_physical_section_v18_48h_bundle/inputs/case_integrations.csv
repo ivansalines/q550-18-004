@@ -1,0 +1,13 @@
+case_id,T,baseline_steps
+phasecov_d2_lam-1.00_mod+0.00|xi=3.5|branch=0,5.5881079355647e-07,3
+phasecov_d2_lam-1.00_mod+0.00|xi=3.5|branch=1,4.868907220684094e-07,2
+phasecov_d2_lam-1.00_mod+0.00|xi=4|branch=0,1.2277048854402875e-06,5
+phasecov_d2_lam-1.00_mod+0.00|xi=4|branch=1,4.4395183625184343e-07,2
+phasecov_d2_lam-1.00_mod+0.00|xi=4.5|branch=0,4.471740917800759e-07,2
+phasecov_d2_lam-1.00_mod+0.00|xi=4.5|branch=1,4.568095963477362e-07,2
+phaseblind_d2_lam-1.00_mod+0.00|xi=3.5|branch=0,9.338817352499074e-07,4
+phaseblind_d2_lam-1.00_mod+0.00|xi=3.5|branch=1,5.021475135838368e-07,3
+phaseblind_d2_lam-1.00_mod+0.00|xi=4|branch=0,1.0949666745439605e-06,5
+phaseblind_d2_lam-1.00_mod+0.00|xi=4|branch=1,4.513464011717968e-07,2
+phaseblind_d2_lam-1.00_mod+0.00|xi=4.5|branch=0,5.325648537733285e-07,3
+phaseblind_d2_lam-1.00_mod+0.00|xi=4.5|branch=1,5.390673309331952e-07,3

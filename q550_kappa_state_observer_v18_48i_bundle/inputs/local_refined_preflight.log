@@ -1,0 +1,17 @@
+v18.48h phaseblind_d2_lam-1.00_mod+0.00 seed_branch 0 original physical xi 3.5->4.5 evaluations 941
+v18.48h phaseblind_d2_lam-1.00_mod+0.00 seed_branch 0 autonomous physical xi 3.5->4.5 evaluations 941
+v18.48h phaseblind_d2_lam-1.00_mod+0.00 seed_branch 1 original physical xi 3.5->4.5 evaluations 989
+v18.48h phaseblind_d2_lam-1.00_mod+0.00 seed_branch 1 autonomous physical xi 3.5->4.5 evaluations 989
+v18.48h phasecov_d2_lam-1.00_mod+0.00 seed_branch 0 original physical xi 3.5->4.5 evaluations 941
+v18.48h phasecov_d2_lam-1.00_mod+0.00 seed_branch 0 autonomous physical xi 3.5->4.5 evaluations 953
+v18.48h phasecov_d2_lam-1.00_mod+0.00 seed_branch 1 original physical xi 3.5->4.5 evaluations 941
+v18.48h phasecov_d2_lam-1.00_mod+0.00 seed_branch 1 autonomous physical xi 3.5->4.5 evaluations 941
+{
+  "status": "GENUINE_Q550_INITIAL_VALUE_SECTION_CONTINUATION_NOT_BRANCH_BVP_CERTIFICATE",
+  "genuinely_integrated_IVPs": 8,
+  "common_section_count": 41,
+  "observation_rows": 2952,
+  "max_clock_section_absolute_error": 1.4432899320127035e-15,
+  "median_best_endpoint_chart_distance": 144189.26200976764,
+  "nearest_target_matches_within_threshold": 0
+}
