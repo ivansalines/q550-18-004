@@ -1,0 +1,108 @@
+{
+  "version": "v18.48f",
+  "status": "ORIGINAL_Q550_ANALYTIC_LOCAL_CANCELLATION_TRANSPORT",
+  "provenance": "v18.48e 36 authenticated original snapshots; first snapshot in each case used as common restart",
+  "input_sha256": {
+    "structural_snapshot_states.npz": "cdb8b0c668160d593a2ddfe1c1ab88e3f2e3756ea3f6d9f80a890d05d34f0a30",
+    "structural_snapshots.csv": "ae31e0d45b84c462b8982abc753c27b004f84058f9c6f9c2ad34dbc5e1e8e78b",
+    "case_integrations.csv": "f2ee852d26169c2e70e3b2a23336201d6c159155d07174c14e4a666bc3b7b6ea",
+    "report.json": "2e76de37e6627362d4b6276675282928c0d32dcbb79a53a02f133bf31629e809"
+  },
+  "source_sha256": {
+    "audit": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864",
+    "support": "5b5938e7920b2ecd242fb8f416a18c7c47ae10aa06e027e0727f15e284c98c61",
+    "tube": "a9d1ec342c268da8e721dc641cab8cc4cf39f69d821dfd4191163833ba04e881"
+  },
+  "parent_report_sha256": "2e76de37e6627362d4b6276675282928c0d32dcbb79a53a02f133bf31629e809",
+  "parent_auth": {
+    "parent_sha256": "08fb4df3ad76cf2cf3f480c26967d9ca1993b82b2ceabbb5f7053216dda9afb4",
+    "verified_members": 166
+  },
+  "cases": 12,
+  "samples": 408,
+  "fresh_integrations": 24,
+  "max_original_restart_snapshot_absolute_error": 1.2865337235202931e-12,
+  "max_transported_vs_historical_source_gradient_relative": 1.074142921269897e-06,
+  "max_telescope_relative_error": 0.0,
+  "max_direct_identity_relative_error": 5.574718380534619e-09,
+  "original_kappa": 0.16666666666666666,
+  "geometric_kappa": 0.16659961041764054,
+  "delta_kappa": -6.705624902611507e-05,
+  "horizon_factor": 1.0,
+  "min_historical_T": 4.4395183625184343e-07,
+  "max_historical_T": 1.2277048854402875e-06,
+  "max_reference_cancellation": 103.43622675055464,
+  "max_geometric_cancellation": 102.22379061816346,
+  "median_reference_cancellation": 7.55742571883107,
+  "median_geometric_cancellation": 7.55586020419205,
+  "median_kernel_delta_relative": 0.0014890565576169928,
+  "max_state_absolute_difference": 8.885236539025821e-10,
+  "focus_phaseblind_xi35": {
+    "samples": 68,
+    "ref_max_cancellation": 103.43622675055464,
+    "geo_max_cancellation": 102.22379061816346
+  },
+  "branch_pair_comparison": [
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "anchor_xi": 3.5,
+      "reference_branch0_cmax": 103.43622675055464,
+      "reference_branch1_cmax": 1.8519563955613332,
+      "geometric_branch0_cmax": 102.22379061816346,
+      "geometric_branch1_cmax": 1.851879420136484,
+      "ratio_of_peak_branch0_to_branch1": 55.852409375547325,
+      "absolute_peak_difference": 101.58427035499331
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "anchor_xi": 4.0,
+      "reference_branch0_cmax": 10.366919590907957,
+      "reference_branch1_cmax": 38.19068142435456,
+      "geometric_branch0_cmax": 10.36420381513021,
+      "geometric_branch1_cmax": 38.08489464767355,
+      "ratio_of_peak_branch0_to_branch1": 0.27145154797622634,
+      "absolute_peak_difference": -27.823761833446603
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "anchor_xi": 4.5,
+      "reference_branch0_cmax": 1.7537458815952183,
+      "reference_branch1_cmax": 37.51891568649426,
+      "geometric_branch0_cmax": 1.753688090302577,
+      "geometric_branch1_cmax": 37.35881647150486,
+      "ratio_of_peak_branch0_to_branch1": 0.04674297882831717,
+      "absolute_peak_difference": -35.765169804899045
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "anchor_xi": 3.5,
+      "reference_branch0_cmax": 6.716872054398979,
+      "reference_branch1_cmax": 36.21630009591976,
+      "geometric_branch0_cmax": 6.716303859996646,
+      "geometric_branch1_cmax": 36.20778660292306,
+      "ratio_of_peak_branch0_to_branch1": 0.18546544060572664,
+      "absolute_peak_difference": -29.499428041520783
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "anchor_xi": 4.0,
+      "reference_branch0_cmax": 8.429080010388132,
+      "reference_branch1_cmax": 5.267545378608466,
+      "geometric_branch0_cmax": 8.42661131068848,
+      "geometric_branch1_cmax": 5.267156552824672,
+      "ratio_of_peak_branch0_to_branch1": 1.6001912474487032,
+      "absolute_peak_difference": 3.1615346317796664
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "anchor_xi": 4.5,
+      "reference_branch0_cmax": 1.2243030527840988,
+      "reference_branch1_cmax": 1.3205835328454911,
+      "geometric_branch0_cmax": 1.2242719343038215,
+      "geometric_branch1_cmax": 1.3205478363797478,
+      "ratio_of_peak_branch0_to_branch1": 0.927092472632962,
+      "absolute_peak_difference": -0.09628048006139234
+    }
+  ],
+  "limitations": "Times are 0.125*T to horizon_factor*T, historical T roughly 1e-6; local perturbation transport, not long-time hysteresis. 11D tangent-dual transport is a moving covector in the original frozen chart, not a reoptimized observer, not a mechanical normal invariant. Kernel observable projects first 10 chart dimensions. Algebraic Hessians evaluated in binary64 without interval enclosures; geometric kappa is a prescribed comparison, not validated physical law. When horizon_factor>1, times beyond T extrapolate beyond the authenticated historical endpoint."
+}

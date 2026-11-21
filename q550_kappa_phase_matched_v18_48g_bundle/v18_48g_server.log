@@ -1,0 +1,30 @@
+test_exact_pinned_inputs (test_continuation.GeometryTests.test_exact_pinned_inputs) ... ok
+test_frozen_histogram_pins (test_continuation.GeometryTests.test_frozen_histogram_pins) ... ok
+test_gauge_preserves_relative_phase (test_continuation.GeometryTests.test_gauge_preserves_relative_phase) ... ok
+test_kappa_coupling_zero_z (test_continuation.GeometryTests.test_kappa_coupling_zero_z) ... ok
+test_lift_endpoints_are_equivalent (test_continuation.GeometryTests.test_lift_endpoints_are_equivalent) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.015s
+
+OK
+v18.48g completed 16 integrations
+v18.48g completed 32 integrations
+v18.48g completed 48 integrations
+v18.48g completed 64 integrations
+v18.48g completed 80 integrations
+v18.48g completed 96 integrations
+v18.48g completed 112 integrations
+v18.48g completed 128 integrations
+v18.48g completed 144 integrations
+{
+  "status": "EXPLORATORY_GAUGE_MATCHED_BRANCH_HOMOTOPY_NOT_PHYSICAL_CONTINUATION_CERTIFICATE",
+  "seed_control_rows": 144,
+  "transport_rows": 432,
+  "actual_integrations": 144,
+  "max_gauge_original_rhs_rel": 2.366216032579507e-13,
+  "max_gauge_analytic_hessian_rel": 1.192789326347026e-13,
+  "maximum_known_anchor_ratio_rel_error": 3.5082728873095994e-12
+}
+/root/elab1/hysteresis/q550_kappa_phase_matched_v18_48g_bundle/results/phaseblind_branch_matching_hypotheses.png
+SENDBACK /root/elab1/hysteresis/q550_kappa_phase_matched_v18_48g_bundle/sendback.zip members 38

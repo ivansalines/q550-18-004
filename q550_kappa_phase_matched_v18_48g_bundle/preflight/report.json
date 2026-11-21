@@ -1,0 +1,701 @@
+{
+  "version": "v18.48g",
+  "status": "EXPLORATORY_GAUGE_MATCHED_BRANCH_HOMOTOPY_NOT_PHYSICAL_CONTINUATION_CERTIFICATE",
+  "families": [
+    "phaseblind_d2_lam-1.00_mod+0.00",
+    "phasecov_d2_lam-1.00_mod+0.00"
+  ],
+  "original_xi": [
+    3.5,
+    4.0,
+    4.5
+  ],
+  "anchor_cases": 12,
+  "interpolation_alpha_points": 9,
+  "seed_control_rows": 144,
+  "transport_rows": 432,
+  "actual_integrations": 144,
+  "source_pins": {
+    "audit": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864",
+    "support": "5b5938e7920b2ecd242fb8f416a18c7c47ae10aa06e027e0727f15e284c98c61",
+    "tube": "a9d1ec342c268da8e721dc641cab8cc4cf39f69d821dfd4191163833ba04e881"
+  },
+  "embedded_original_sha": {
+    "structural_snapshot_states.npz": "cdb8b0c668160d593a2ddfe1c1ab88e3f2e3756ea3f6d9f80a890d05d34f0a30",
+    "structural_snapshots.csv": "ae31e0d45b84c462b8982abc753c27b004f84058f9c6f9c2ad34dbc5e1e8e78b",
+    "case_integrations.csv": "f2ee852d26169c2e70e3b2a23336201d6c159155d07174c14e4a666bc3b7b6ea",
+    "report.json": "2e76de37e6627362d4b6276675282928c0d32dcbb79a53a02f133bf31629e809"
+  },
+  "parent_v18_48f_sha": {
+    "v18_48f_transport_ledger.csv": "a4801bcd7ea3879b9cabf5a84d5f627f99fe84b7c26111227816eb6685a5d381",
+    "v18_48f_branch_pairs.csv": "22e22dacfcd7a497898e9cb50616075d21ebf56ae9698f3029edf96a2858f6a6",
+    "v18_48f_report.json": "dff5d4ca9c1eda49540deadc47c1db75f12cbc5a267284c2694261c5617f719b"
+  },
+  "gauge_transform": "(theta1,Theta)->(theta1+c,Theta+c), plus individual integer 2pi angular lifts",
+  "gauge_preserves_relative_phase": true,
+  "max_gauge_original_rhs_rel": 2.3662160325795063e-13,
+  "max_gauge_analytic_hessian_rel": 1.192789326347026e-13,
+  "max_gauge_phase_mod_error": 2.4868995751603507e-13,
+  "maximum_known_anchor_ratio_rel_error": 3.5082728873095994e-12,
+  "branch_assignment": [
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "xi_start": 3.5,
+      "xi_end": 4.0,
+      "chosen": "1,0",
+      "criteria": {
+        "chart_distance": {
+          "preferred": "1,0",
+          "margin": 0.00042816048839533494,
+          "relative_margin": 8.502756274201257e-05
+        },
+        "relative_phase_distance": {
+          "preferred": "1,0",
+          "margin": 1.0208485402913767,
+          "relative_margin": 0.6255079365522068
+        },
+        "observer_misalignment": {
+          "preferred": "0,1",
+          "margin": 1.180513153775653e-05,
+          "relative_margin": 0.9786814384938926
+        },
+        "combined": {
+          "preferred": "1,0",
+          "margin": 1.021158649464394,
+          "relative_margin": 0.15315274111368637
+        }
+      }
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "xi_start": 4.0,
+      "xi_end": 4.5,
+      "chosen": "0,1",
+      "criteria": {
+        "chart_distance": {
+          "preferred": "1,0",
+          "margin": 0.000727535503704857,
+          "relative_margin": 0.00013603610664778627
+        },
+        "relative_phase_distance": {
+          "preferred": "0,1",
+          "margin": 1.3146290956106532,
+          "relative_margin": 0.7382651085699273
+        },
+        "observer_misalignment": {
+          "preferred": "1,0",
+          "margin": 1.1498504593365766e-05,
+          "relative_margin": 0.8765619135080064
+        },
+        "combined": {
+          "preferred": "0,1",
+          "margin": 1.3137865750610134,
+          "relative_margin": 0.18431103315568034
+        }
+      }
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "xi_start": 3.5,
+      "xi_end": 4.0,
+      "chosen": "1,0",
+      "criteria": {
+        "chart_distance": {
+          "preferred": "0,1",
+          "margin": 0.0008106527899878202,
+          "relative_margin": 0.00015911798146872212
+        },
+        "relative_phase_distance": {
+          "preferred": "1,0",
+          "margin": 0.21666836637346842,
+          "relative_margin": 0.1839861045910992
+        },
+        "observer_misalignment": {
+          "preferred": "0,1",
+          "margin": 6.289409271165169e-07,
+          "relative_margin": 0.10226418607925415
+        },
+        "combined": {
+          "preferred": "1,0",
+          "margin": 0.21585142417420844,
+          "relative_margin": 0.034417589996855014
+        }
+      }
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "xi_start": 4.0,
+      "xi_end": 4.5,
+      "chosen": "1,0",
+      "criteria": {
+        "chart_distance": {
+          "preferred": "1,0",
+          "margin": 0.0002238623519641436,
+          "relative_margin": 4.1470768802333e-05
+        },
+        "relative_phase_distance": {
+          "preferred": "0,1",
+          "margin": 0.0,
+          "relative_margin": 0.0
+        },
+        "observer_misalignment": {
+          "preferred": "0,1",
+          "margin": 8.251045604534823e-07,
+          "relative_margin": 0.20517392918022478
+        },
+        "combined": {
+          "preferred": "1,0",
+          "margin": 0.00021561130636005288,
+          "relative_margin": 3.414817123937892e-05
+        }
+      }
+    }
+  ],
+  "interpolated_profiles": [
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "xi_start": 3.5,
+      "xi_end": 4.0,
+      "matching": "identity",
+      "param": "reference_C",
+      "interpolation": "internal",
+      "start_logratio": 4.022712664701932,
+      "end_logratio": -1.3024602425983018,
+      "crossing_brackets": [
+        [
+          0.625,
+          0.75
+        ]
+      ],
+      "interpolated_zero_estimates": [
+        3.870259414
+      ]
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "xi_start": 3.5,
+      "xi_end": 4.0,
+      "matching": "identity",
+      "param": "reference_C",
+      "interpolation": "positive_radii",
+      "start_logratio": 4.022712664701932,
+      "end_logratio": -1.3024602425974101,
+      "crossing_brackets": [
+        [
+          0.625,
+          0.75
+        ]
+      ],
+      "interpolated_zero_estimates": [
+        3.870259657
+      ]
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "xi_start": 3.5,
+      "xi_end": 4.0,
+      "matching": "identity",
+      "param": "geometric_C",
+      "interpolation": "internal",
+      "start_logratio": 4.010963409406227,
+      "end_logratio": -1.2999513241625116,
+      "crossing_brackets": [
+        [
+          0.625,
+          0.75
+        ]
+      ],
+      "interpolated_zero_estimates": [
+        3.870331294
+      ]
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "xi_start": 3.5,
+      "xi_end": 4.0,
+      "matching": "identity",
+      "param": "geometric_C",
+      "interpolation": "positive_radii",
+      "start_logratio": 4.010963409406227,
+      "end_logratio": -1.299951324160725,
+      "crossing_brackets": [
+        [
+          0.625,
+          0.75
+        ]
+      ],
+      "interpolated_zero_estimates": [
+        3.87033154
+      ]
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "xi_start": 4.0,
+      "xi_end": 4.5,
+      "matching": "identity",
+      "param": "reference_C",
+      "interpolation": "internal",
+      "start_logratio": -1.302460242594428,
+      "end_logratio": -3.0679395641769505,
+      "crossing_brackets": [],
+      "interpolated_zero_estimates": []
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "xi_start": 4.0,
+      "xi_end": 4.5,
+      "matching": "identity",
+      "param": "reference_C",
+      "interpolation": "positive_radii",
+      "start_logratio": -1.3024602425962089,
+      "end_logratio": -3.0679395641769505,
+      "crossing_brackets": [],
+      "interpolated_zero_estimates": []
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "xi_start": 4.0,
+      "xi_end": 4.5,
+      "matching": "identity",
+      "param": "geometric_C",
+      "interpolation": "internal",
+      "start_logratio": -1.2999513241612872,
+      "end_logratio": -3.0636949979009813,
+      "crossing_brackets": [],
+      "interpolated_zero_estimates": []
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "xi_start": 4.0,
+      "xi_end": 4.5,
+      "matching": "identity",
+      "param": "geometric_C",
+      "interpolation": "positive_radii",
+      "start_logratio": -1.299951324163077,
+      "end_logratio": -3.0636949979009813,
+      "crossing_brackets": [],
+      "interpolated_zero_estimates": []
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "xi_start": 3.5,
+      "xi_end": 4.0,
+      "matching": "identity",
+      "param": "reference_C",
+      "interpolation": "internal",
+      "start_logratio": -1.6838929960518938,
+      "end_logratio": 0.47012315175774866,
+      "crossing_brackets": [
+        [
+          0.25,
+          0.375
+        ]
+      ],
+      "interpolated_zero_estimates": [
+        3.639563576
+      ]
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "xi_start": 3.5,
+      "xi_end": 4.0,
+      "matching": "identity",
+      "param": "reference_C",
+      "interpolation": "positive_radii",
+      "start_logratio": -1.6838929960518938,
+      "end_logratio": 0.47012315175774866,
+      "crossing_brackets": [
+        [
+          0.25,
+          0.375
+        ]
+      ],
+      "interpolated_zero_estimates": [
+        3.63956322
+      ]
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "xi_start": 3.5,
+      "xi_end": 4.0,
+      "matching": "identity",
+      "param": "geometric_C",
+      "interpolation": "internal",
+      "start_logratio": -1.6838244998047383,
+      "end_logratio": 0.46990404804749186,
+      "crossing_brackets": [
+        [
+          0.25,
+          0.375
+        ]
+      ],
+      "interpolated_zero_estimates": [
+        3.63957316
+      ]
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "xi_start": 3.5,
+      "xi_end": 4.0,
+      "matching": "identity",
+      "param": "geometric_C",
+      "interpolation": "positive_radii",
+      "start_logratio": -1.6838244998047383,
+      "end_logratio": 0.46990404804749186,
+      "crossing_brackets": [
+        [
+          0.25,
+          0.375
+        ]
+      ],
+      "interpolated_zero_estimates": [
+        3.639572805
+      ]
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "xi_start": 4.0,
+      "xi_end": 4.5,
+      "matching": "identity",
+      "param": "reference_C",
+      "interpolation": "internal",
+      "start_logratio": 0.47012315175807506,
+      "end_logratio": -0.07805120303592172,
+      "crossing_brackets": [
+        [
+          0.25,
+          0.375
+        ]
+      ],
+      "interpolated_zero_estimates": [
+        4.167038844
+      ]
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "xi_start": 4.0,
+      "xi_end": 4.5,
+      "matching": "identity",
+      "param": "reference_C",
+      "interpolation": "positive_radii",
+      "start_logratio": 0.47012315175807506,
+      "end_logratio": -0.07805120303592172,
+      "crossing_brackets": [
+        [
+          0.25,
+          0.375
+        ]
+      ],
+      "interpolated_zero_estimates": [
+        4.167039757
+      ]
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "xi_start": 4.0,
+      "xi_end": 4.5,
+      "matching": "identity",
+      "param": "geometric_C",
+      "interpolation": "internal",
+      "start_logratio": 0.4699040480478158,
+      "end_logratio": -0.07804885502572734,
+      "crossing_brackets": [
+        [
+          0.25,
+          0.375
+        ]
+      ],
+      "interpolated_zero_estimates": [
+        4.167021564
+      ]
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "xi_start": 4.0,
+      "xi_end": 4.5,
+      "matching": "identity",
+      "param": "geometric_C",
+      "interpolation": "positive_radii",
+      "start_logratio": 0.4699040480478158,
+      "end_logratio": -0.07804885502572734,
+      "crossing_brackets": [
+        [
+          0.25,
+          0.375
+        ]
+      ],
+      "interpolated_zero_estimates": [
+        4.167022478
+      ]
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "xi_start": 3.5,
+      "xi_end": 4.0,
+      "matching": "swap",
+      "param": "reference_C",
+      "interpolation": "internal",
+      "start_logratio": 4.022712664701932,
+      "end_logratio": 1.3024602425979364,
+      "crossing_brackets": [],
+      "interpolated_zero_estimates": []
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "xi_start": 3.5,
+      "xi_end": 4.0,
+      "matching": "swap",
+      "param": "reference_C",
+      "interpolation": "positive_radii",
+      "start_logratio": 4.022712664701932,
+      "end_logratio": 1.3024602425970424,
+      "crossing_brackets": [],
+      "interpolated_zero_estimates": []
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "xi_start": 3.5,
+      "xi_end": 4.0,
+      "matching": "swap",
+      "param": "geometric_C",
+      "interpolation": "internal",
+      "start_logratio": 4.010963409406227,
+      "end_logratio": 1.2999513241621155,
+      "crossing_brackets": [],
+      "interpolated_zero_estimates": []
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "xi_start": 3.5,
+      "xi_end": 4.0,
+      "matching": "swap",
+      "param": "geometric_C",
+      "interpolation": "positive_radii",
+      "start_logratio": 4.010963409406227,
+      "end_logratio": 1.2999513241603204,
+      "crossing_brackets": [],
+      "interpolated_zero_estimates": []
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "xi_start": 4.0,
+      "xi_end": 4.5,
+      "matching": "swap",
+      "param": "reference_C",
+      "interpolation": "internal",
+      "start_logratio": -1.302460242594428,
+      "end_logratio": 3.0679395641747016,
+      "crossing_brackets": [
+        [
+          0.125,
+          0.25
+        ]
+      ],
+      "interpolated_zero_estimates": [
+        4.074915095
+      ]
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "xi_start": 4.0,
+      "xi_end": 4.5,
+      "matching": "swap",
+      "param": "reference_C",
+      "interpolation": "positive_radii",
+      "start_logratio": -1.3024602425962089,
+      "end_logratio": 3.0679395641747016,
+      "crossing_brackets": [
+        [
+          0.125,
+          0.25
+        ]
+      ],
+      "interpolated_zero_estimates": [
+        4.074915263
+      ]
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "xi_start": 4.0,
+      "xi_end": 4.5,
+      "matching": "swap",
+      "param": "geometric_C",
+      "interpolation": "internal",
+      "start_logratio": -1.2999513241612872,
+      "end_logratio": 3.0636949978994306,
+      "crossing_brackets": [
+        [
+          0.125,
+          0.25
+        ]
+      ],
+      "interpolated_zero_estimates": [
+        4.075093924
+      ]
+    },
+    {
+      "family": "phaseblind_d2_lam-1.00_mod+0.00",
+      "xi_start": 4.0,
+      "xi_end": 4.5,
+      "matching": "swap",
+      "param": "geometric_C",
+      "interpolation": "positive_radii",
+      "start_logratio": -1.299951324163077,
+      "end_logratio": 3.0636949978994306,
+      "crossing_brackets": [
+        [
+          0.125,
+          0.25
+        ]
+      ],
+      "interpolated_zero_estimates": [
+        4.075094095
+      ]
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "xi_start": 3.5,
+      "xi_end": 4.0,
+      "matching": "swap",
+      "param": "reference_C",
+      "interpolation": "internal",
+      "start_logratio": -1.6838929960518938,
+      "end_logratio": -0.4701231517585376,
+      "crossing_brackets": [
+        [
+          0.125,
+          0.25
+        ],
+        [
+          0.625,
+          0.75
+        ]
+      ],
+      "interpolated_zero_estimates": [
+        3.621083055,
+        3.855325306
+      ]
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "xi_start": 3.5,
+      "xi_end": 4.0,
+      "matching": "swap",
+      "param": "reference_C",
+      "interpolation": "positive_radii",
+      "start_logratio": -1.6838929960518938,
+      "end_logratio": -0.4701231517585376,
+      "crossing_brackets": [
+        [
+          0.125,
+          0.25
+        ],
+        [
+          0.625,
+          0.75
+        ]
+      ],
+      "interpolated_zero_estimates": [
+        3.621082749,
+        3.855326178
+      ]
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "xi_start": 3.5,
+      "xi_end": 4.0,
+      "matching": "swap",
+      "param": "geometric_C",
+      "interpolation": "internal",
+      "start_logratio": -1.6838244998047383,
+      "end_logratio": -0.469904048048414,
+      "crossing_brackets": [
+        [
+          0.125,
+          0.25
+        ],
+        [
+          0.625,
+          0.75
+        ]
+      ],
+      "interpolated_zero_estimates": [
+        3.621092172,
+        3.855323859
+      ]
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "xi_start": 3.5,
+      "xi_end": 4.0,
+      "matching": "swap",
+      "param": "geometric_C",
+      "interpolation": "positive_radii",
+      "start_logratio": -1.6838244998047383,
+      "end_logratio": -0.469904048048414,
+      "crossing_brackets": [
+        [
+          0.125,
+          0.25
+        ],
+        [
+          0.625,
+          0.75
+        ]
+      ],
+      "interpolated_zero_estimates": [
+        3.621091866,
+        3.855324732
+      ]
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "xi_start": 4.0,
+      "xi_end": 4.5,
+      "matching": "swap",
+      "param": "reference_C",
+      "interpolation": "internal",
+      "start_logratio": 0.47012315175807506,
+      "end_logratio": 0.07805120303592172,
+      "crossing_brackets": [],
+      "interpolated_zero_estimates": []
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "xi_start": 4.0,
+      "xi_end": 4.5,
+      "matching": "swap",
+      "param": "reference_C",
+      "interpolation": "positive_radii",
+      "start_logratio": 0.47012315175807506,
+      "end_logratio": 0.07805120303592172,
+      "crossing_brackets": [],
+      "interpolated_zero_estimates": []
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "xi_start": 4.0,
+      "xi_end": 4.5,
+      "matching": "swap",
+      "param": "geometric_C",
+      "interpolation": "internal",
+      "start_logratio": 0.4699040480478158,
+      "end_logratio": 0.07804885502572734,
+      "crossing_brackets": [],
+      "interpolated_zero_estimates": []
+    },
+    {
+      "family": "phasecov_d2_lam-1.00_mod+0.00",
+      "xi_start": 4.0,
+      "xi_end": 4.5,
+      "matching": "swap",
+      "param": "geometric_C",
+      "interpolation": "positive_radii",
+      "start_logratio": 0.4699040480478158,
+      "end_logratio": 0.07804885502572734,
+      "crossing_brackets": [],
+      "interpolated_zero_estimates": []
+    }
+  ],
+  "limitations": "The continuous gauge phase match IS an exact symmetry of the autonomous RHS; this does NOT mean original discrete xi anchors are on one continuous material branch. The intermediate seeds are introduced by linear interpolation in internal coordinates, plus a positive-radius control, NOT independently authenticated Q550 orbits. A crossing of the two interpolated cancellation ratios is not a certified branch exchange or dynamic transport event. The chart is inherited 10D; the adjoint is transported in full 11D for local short windows. The initial observer is interpolated, not reoptimized; no globally unique continuous branch or gauge invariant normal bundle is proved. The historical endpoints have T of order 1e-6. No long-time hysteresis or physical coupling-selection law is established."
+}
