@@ -1,0 +1,24 @@
+Python dependencies verified
+v18.48c phasecov_d2_lam-1.00_mod+0.00|xi=3.5|branch=0 snapshots 3
+v18.48c phasecov_d2_lam-1.00_mod+0.00|xi=3.5|branch=1 snapshots 3
+v18.48c phasecov_d2_lam-1.00_mod+0.00|xi=4|branch=0 snapshots 3
+v18.48c phasecov_d2_lam-1.00_mod+0.00|xi=4|branch=1 snapshots 3
+v18.48c phasecov_d2_lam-1.00_mod+0.00|xi=4.5|branch=0 snapshots 3
+v18.48c phasecov_d2_lam-1.00_mod+0.00|xi=4.5|branch=1 snapshots 3
+v18.48c phaseblind_d2_lam-1.00_mod+0.00|xi=3.5|branch=0 snapshots 3
+v18.48c phaseblind_d2_lam-1.00_mod+0.00|xi=3.5|branch=1 snapshots 3
+v18.48c phaseblind_d2_lam-1.00_mod+0.00|xi=4|branch=0 snapshots 3
+v18.48c phaseblind_d2_lam-1.00_mod+0.00|xi=4|branch=1 snapshots 3
+v18.48c phaseblind_d2_lam-1.00_mod+0.00|xi=4.5|branch=0 snapshots 3
+v18.48c phaseblind_d2_lam-1.00_mod+0.00|xi=4.5|branch=1 snapshots 3
+{
+  "status": "ORIGINAL_Q550_NUMERICAL_STENCIL_CONVERGENCE_AUDIT",
+  "snapshot_count": 36,
+  "rows": 576,
+  "integrations": 24,
+  "fixed_median_hessian_relative": 0.004756874707879928,
+  "restart_median_hessian_relative": 0.004935057299299522
+}
+/usr/lib64/python3.13/zipfile/__init__.py:1686: UserWarning: Duplicate name: 'q550_kappa_hessian_stencil_v18_48c_bundle/SHA256SUMS_OUTPUT.json'
+  return self._open_to_write(zinfo, force_zip64=force_zip64)
+SENDBACK /root/elab1/hysteresis/q550_kappa_hessian_stencil_v18_48c_bundle/sendback.zip

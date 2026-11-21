@@ -1,0 +1,12 @@
+{
+  "README.md": "51042460d78b96e7b7394a0f7cc609bf78dca6d0091a321fe41d856a1235fcb8",
+  "run_on_server.sh": "e34a10950aee89ccea3d9b5929e3a0ed64e0edf40696dcfdde947a8e3ad1335d",
+  "v18_48c_server.log": "d9667104fe6c083c7ba793151778200bb75526746b75379866adb7d9d1befbe0",
+  "SHA256SUMS_OUTPUT.json": "f36158e0e37434be3f77d18c0df03b956590c3decc5f13cfff63f936bcdcead9",
+  "scripts/pack_sendback.py": "a469848124fbeea37b9a3f945e4729840e7bea22763a69b23f52ef8808674200",
+  "scripts/run_audit.py": "d4572c81e3c0edaf20305c4e5230b0c52addd8056f69e26db9dfb34b611f7141",
+  "results/stencil_defects.csv": "0eb4d96de622ae5ec0d36eca23415cc22f3cdd98ea2e6f8bd64758b8507fef3f",
+  "results/case_integrations.csv": "918a6b742660afb6da451855073eee4b87e4ba5b5315f7c669ec972625abbdb3",
+  "results/stencil_convergence.csv": "b349ebe24d1e1cdf5dd00d7a378494e7022032528140313380c1ed0d4678b8f4",
+  "results/report.json": "60e5cb9613bc0b3f9c32dda3f52abee214597b02f24ff1ad6a2e9bd41cf87af0"
+}
