@@ -1,0 +1,36 @@
+test_initial_final_signs (test_drive_math.Tests.test_initial_final_signs) ... ok
+test_instant_reference (test_drive_math.Tests.test_instant_reference) ... ok
+test_integral_agrees_with_primitive (test_drive_math.Tests.test_integral_agrees_with_primitive) ... ok
+test_no_phase_ambiguity (test_drive_math.Tests.test_no_phase_ambiguity) ... ok
+test_persistence (test_drive_math.Tests.test_persistence) ... ok
+test_phase_lock (test_drive_math.Tests.test_phase_lock) ... ok
+test_signed_power (test_drive_math.Tests.test_signed_power) ... ok
+test_uniqueness (test_drive_math.Tests.test_uniqueness) ... ok
+test_velocity_prep (test_drive_math.Tests.test_velocity_prep) ... ok
+test_zero_area_prelude (test_drive_math.Tests.test_zero_area_prelude) ... ok
+test_zero_crossing (test_drive_math.Tests.test_zero_crossing) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.005s
+
+OK
+v18.48u original path completed: phaseblind_d2_lam-1.00_mod+0.00 0 autonomous original regression 3.422e-13
+v18.48u original path completed: phaseblind_d2_lam-1.00_mod+0.00 0 original original regression 3.425e-13
+v18.48u original path completed: phaseblind_d2_lam-1.00_mod+0.00 1 autonomous original regression 6.413e-12
+v18.48u original path completed: phaseblind_d2_lam-1.00_mod+0.00 1 original original regression 6.443e-12
+v18.48u original path completed: phasecov_d2_lam-1.00_mod+0.00 0 autonomous original regression 1.648e-11
+v18.48u original path completed: phasecov_d2_lam-1.00_mod+0.00 0 original original regression 1.649e-11
+v18.48u original path completed: phasecov_d2_lam-1.00_mod+0.00 1 autonomous original regression 3.981e-12
+v18.48u original path completed: phasecov_d2_lam-1.00_mod+0.00 1 original original regression 3.970e-12
+v18.48u REPORT {
+  "status": "FULL_ORIGINAL_11D_NUMERICAL_AUDIT",
+  "genuine_11D_integrations": 152,
+  "phase_matched_minima": 144,
+  "common_phase_profile_points": 11664,
+  "minimum_3D_gap": 0.0003237843443314903,
+  "maximum_return_energy_relative_residual": 1.7463539295214936e-10,
+  "maximum_original_t_control_regression": 1.5316498069850581e-12
+}
+PASS v18.48u outputs 144 phase-locked minima 11664 common-phase rows FULL_ORIGINAL_11D_NUMERICAL_AUDIT
+PLOTS generated: two authentic data figures
+PACKED /root/elab1/hysteresis/q550_kappa_smooth_reversal_v18_48u_bundle/sendback.zip files 23 SHA f3df472aea5eb8e7067ee92974239984400cd9eea398e03ad0ea2c716fa9d525
