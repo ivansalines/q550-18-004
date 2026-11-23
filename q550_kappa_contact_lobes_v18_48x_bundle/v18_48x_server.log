@@ -1,0 +1,87 @@
+test_exact_threshold_refinement (test_lobes.LobeTests.test_exact_threshold_refinement) ... ok
+test_logistic_consistency (test_lobes.LobeTests.test_logistic_consistency) ... ok
+test_one_lobe_truncated (test_lobes.LobeTests.test_one_lobe_truncated) ... ok
+test_shaped_rows (test_lobes.LobeTests.test_shaped_rows) ... ok
+test_two_lobes_and_merge (test_lobes.LobeTests.test_two_lobes_and_merge) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.031s
+
+OK
+v18.48x phaseblind b0 autonomous ramp=0.27500 components=2
+v18.48x phaseblind b0 autonomous ramp=0.28500 components=2
+v18.48x phaseblind b0 autonomous ramp=0.29000 components=2
+v18.48x phaseblind b0 autonomous ramp=0.29200 components=2
+v18.48x phaseblind b0 autonomous ramp=0.29400 components=2
+v18.48x phaseblind b0 autonomous ramp=0.29500 components=2
+v18.48x phaseblind b0 autonomous ramp=0.29600 components=2
+v18.48x phaseblind b0 autonomous ramp=0.29625 components=2
+v18.48x phaseblind b0 autonomous ramp=0.29650 components=2
+v18.48x phaseblind b0 autonomous ramp=0.29675 components=1
+v18.48x phaseblind b0 autonomous ramp=0.29700 components=1
+v18.48x phaseblind b0 autonomous ramp=0.29725 components=1
+v18.48x phaseblind b0 autonomous ramp=0.29750 components=1
+v18.48x phaseblind b0 autonomous ramp=0.29800 components=1
+v18.48x phaseblind b0 autonomous ramp=0.29900 components=1
+v18.48x phaseblind b0 autonomous ramp=0.30000 components=1
+v18.48x phaseblind b0 autonomous ramp=0.30200 components=1
+v18.48x phaseblind b0 autonomous ramp=0.30500 components=1
+v18.48x autonomous bracket: [0.2965288086, 0.2965292969] width=4.88e-07
+v18.48x phaseblind b0 original ramp=0.27500 components=2
+v18.48x phaseblind b0 original ramp=0.28500 components=2
+v18.48x phaseblind b0 original ramp=0.29000 components=2
+v18.48x phaseblind b0 original ramp=0.29200 components=2
+v18.48x phaseblind b0 original ramp=0.29400 components=2
+v18.48x phaseblind b0 original ramp=0.29500 components=2
+v18.48x phaseblind b0 original ramp=0.29600 components=2
+v18.48x phaseblind b0 original ramp=0.29625 components=2
+v18.48x phaseblind b0 original ramp=0.29650 components=1
+v18.48x phaseblind b0 original ramp=0.29675 components=1
+v18.48x phaseblind b0 original ramp=0.29700 components=1
+v18.48x phaseblind b0 original ramp=0.29725 components=1
+v18.48x phaseblind b0 original ramp=0.29750 components=1
+v18.48x phaseblind b0 original ramp=0.29800 components=1
+v18.48x phaseblind b0 original ramp=0.29900 components=1
+v18.48x phaseblind b0 original ramp=0.30000 components=1
+v18.48x phaseblind b0 original ramp=0.30200 components=1
+v18.48x phaseblind b0 original ramp=0.30500 components=1
+v18.48x original bracket: [0.2963325195, 0.2963330078] width=4.88e-07
+v18.48x phaseblind b1 autonomous ramp=0.07000 components=2
+v18.48x phaseblind b1 original ramp=0.07000 components=2
+v18.48x phasecov b0 autonomous ramp=0.04000 components=2
+v18.48x phasecov b0 original ramp=0.04000 components=2
+v18.48x phasecov b1 autonomous ramp=0.33500 components=2
+v18.48x phasecov b1 original ramp=0.33500 components=2
+{
+  "integrations": 72,
+  "max_balance": 2.8774930355135453e-10,
+  "max_replay": 1.6487418689859246e-11,
+  "max_w_regression": 4.696243394164412e-14,
+  "candidate_mergers": [
+    {
+      "family": "phaseblind",
+      "branch": 0,
+      "kappa_kind": "original",
+      "left_ramp_xi": 0.29625,
+      "right_ramp_xi": 0.2965,
+      "bracket_width_xi": 0.00024999999999997247,
+      "event_classification": "INTERIOR_TWO_TO_ONE_NUMERICAL_MERGER",
+      "left_intervals": "[[0.3962175070384531,0.4778296574201303],[0.48540087766381984,0.5698930603833157]]",
+      "right_intervals": "[[0.3964167420809001,0.5695378593788536]]"
+    },
+    {
+      "family": "phaseblind",
+      "branch": 0,
+      "kappa_kind": "autonomous",
+      "left_ramp_xi": 0.2965,
+      "right_ramp_xi": 0.29675,
+      "bracket_width_xi": 0.000250000000000028,
+      "event_classification": "INTERIOR_TWO_TO_ONE_NUMERICAL_MERGER",
+      "left_intervals": "[[0.39616148272423385,0.47923823876854404],[0.48373515999827615,0.5696909929305336]]",
+      "right_intervals": "[[0.396360705887123,0.569335828380579]]"
+    }
+  ]
+}
+v18.48x scientific gates passed: 8 paths, 72 original 11D integrations, two subthreshold mergers, full 11D remains distinct
+Generated four verified-data numerical figures
+Packed v18.48x 28 files + manifest; 37c4a31c62b33bbb0fb068ca1a552a3d058dafa883fcd2cb9fe6aa37859ccecd
