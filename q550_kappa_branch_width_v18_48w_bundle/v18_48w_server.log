@@ -1,0 +1,33 @@
+test_gap (test_continuation.ContinuationTests.test_gap) ... ok
+test_gap_reject (test_continuation.ContinuationTests.test_gap_reject) ... ok
+test_names (test_continuation.ContinuationTests.test_names) ... ok
+test_ramps (test_continuation.ContinuationTests.test_ramps) ... ok
+test_scalar_min (test_continuation.ContinuationTests.test_scalar_min) ... ok
+test_seeds (test_continuation.ContinuationTests.test_seeds) ... ok
+test_sign (test_continuation.ContinuationTests.test_sign) ... ok
+test_sign_floor (test_continuation.ContinuationTests.test_sign_floor) ... ok
+test_sign_transition (test_continuation.ContinuationTests.test_sign_transition) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.007s
+
+OK
+v18.48w completed: phaseblind 0 autonomous new ramps 8
+v18.48w completed: phaseblind 0 original new ramps 8
+v18.48w completed: phaseblind 1 autonomous new ramps 8
+v18.48w completed: phaseblind 1 original new ramps 8
+v18.48w completed: phasecov 0 autonomous new ramps 8
+v18.48w completed: phasecov 0 original new ramps 8
+v18.48w completed: phasecov 1 autonomous new ramps 8
+v18.48w completed: phasecov 1 original new ramps 8
+FINAL {
+  "status": "FULL_EIGHT_PATH_NUMERICAL_AUDIT",
+  "genuine_new_material_integrations": 80,
+  "new_refinement_contacts": 64,
+  "combined_contact_samples": 200,
+  "maximum_v18_48v_center_regression": 0.0,
+  "maximum_mechanical_ledger_relative_error": 4.0787066432623753e-10
+}
+v18.48w output gates passed: 8 authentic original paths; 25 ramp values each; three matched phases
+Saved four figures from verified physical data
+Packed 31 entries with root q550_kappa_branch_width_v18_48w_bundle SHA256 d750577fb44b2d0bd605395c4398762c74045b05e0995d6b92b2edb46e7d6e9f
