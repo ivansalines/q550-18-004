@@ -1,0 +1,35 @@
+test_absent (test_ramp_math.TestRamps.test_absent) ... ok
+test_clock_integral (test_ramp_math.TestRamps.test_clock_integral) ... ok
+test_count (test_ramp_math.TestRamps.test_count) ... ok
+test_determinism (test_ramp_math.TestRamps.test_determinism) ... ok
+test_full_phase (test_ramp_math.TestRamps.test_full_phase) ... ok
+test_half_zero (test_ramp_math.TestRamps.test_half_zero) ... ok
+test_intervals (test_ramp_math.TestRamps.test_intervals) ... ok
+test_multi_intervals (test_ramp_math.TestRamps.test_multi_intervals) ... ok
+test_rate_ends (test_ramp_math.TestRamps.test_rate_ends) ... ok
+test_zero (test_ramp_math.TestRamps.test_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.021s
+
+OK
+v18.48v completed: phaseblind_d2_lam-1.00_mod+0.00 0 autonomous best ramp 0.28 3D= 0.000356263
+v18.48v completed: phaseblind_d2_lam-1.00_mod+0.00 0 original best ramp 0.28 3D= 0.00035705
+v18.48v completed: phaseblind_d2_lam-1.00_mod+0.00 1 autonomous best ramp 0.07 3D= 0.000216828
+v18.48v completed: phaseblind_d2_lam-1.00_mod+0.00 1 original best ramp 0.07 3D= 0.000216918
+v18.48v completed: phasecov_d2_lam-1.00_mod+0.00 0 autonomous best ramp 0.04 3D= 0.00146378
+v18.48v completed: phasecov_d2_lam-1.00_mod+0.00 0 original best ramp 0.04 3D= 0.00146376
+v18.48v completed: phasecov_d2_lam-1.00_mod+0.00 1 autonomous best ramp 0.35 3D= 0.000330276
+v18.48v completed: phasecov_d2_lam-1.00_mod+0.00 1 original best ramp 0.35 3D= 0.000331517
+FINAL {
+  "status": "FULL_EIGHT_PATH_NUMERICAL_AUDIT",
+  "genuine_material_11D_integrations": 208,
+  "optimized_phase_contacts": 200,
+  "best_observed_3D_gap": 0.0002168282329748861,
+  "smallest_observed_full11D_gap": 1.1532180463033994,
+  "maximum_parent_u_profile_regression": 2.6645352591003757e-15,
+  "maximum_relative_mechanical_ledger_residual": 4.877727128455023e-10
+}
+v18.48v output gates passed: 8 paths 200 optimized phase contacts
+v18.48v plots regenerated from measured files
+Packed 26 files including manifest, SHA f34803bb28b840bd5930e46f42a7b93a39508f0b829b449302bff10b2e9a63a6
