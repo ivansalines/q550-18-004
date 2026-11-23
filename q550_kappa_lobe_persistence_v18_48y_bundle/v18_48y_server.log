@@ -1,0 +1,71 @@
+test_curvature_refinement_stability (test_persistence.TestPersistenceMath.test_curvature_refinement_stability) ... ok
+test_known_curvature (test_persistence.TestPersistenceMath.test_known_curvature) ... ok
+test_known_quadratic_barrier_curvature (test_persistence.TestPersistenceMath.test_known_quadratic_barrier_curvature) ... ok
+test_minima (test_persistence.TestPersistenceMath.test_minima) ... ok
+test_missing_crossing (test_persistence.TestPersistenceMath.test_missing_crossing) ... ok
+test_no_components_below_minima (test_persistence.TestPersistenceMath.test_no_components_below_minima) ... ok
+test_one_component_when_above_barrier (test_persistence.TestPersistenceMath.test_one_component_when_above_barrier) ... ok
+test_threshold_crossing_bracket (test_persistence.TestPersistenceMath.test_threshold_crossing_bracket) ... ok
+test_two_components_when_below_barrier (test_persistence.TestPersistenceMath.test_two_components_when_below_barrier) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.030s
+
+OK
+v18.48y original   ramp=0.280000 barrier=0.017531199 curvature=-5.376773
+v18.48y original   ramp=0.285000 barrier=0.015268909 curvature=-5.406214
+v18.48y original   ramp=0.290000 barrier=0.012968233 curvature=-5.433519
+v18.48y original   ramp=0.292000 barrier=0.012037303 curvature=-5.443694
+v18.48y original   ramp=0.294000 barrier=0.011100344 curvature=-5.453325
+v18.48y original   ramp=0.295000 barrier=0.010629624 curvature=-5.457900
+v18.48y original   ramp=0.296000 barrier=0.010157424 curvature=-5.462285
+v18.48y original   ramp=0.296250 barrier=0.010039144 curvature=-5.463349
+v18.48y original   ramp=0.296333 barrier=0.009999855 curvature=-5.463699
+v18.48y original   ramp=0.296500 barrier=0.009920773 curvature=-5.464399
+v18.48y original   ramp=0.296530 barrier=0.009906562 curvature=-5.464524
+v18.48y original   ramp=0.297000 barrier=0.009683757 curvature=-5.466455
+v18.48y original   ramp=0.298000 barrier=0.009208638 curvature=-5.470374
+v18.48y original   ramp=0.299000 barrier=0.008732088 curvature=-5.473996
+v18.48y original   ramp=0.300000 barrier=0.008254128 curvature=-5.477264
+v18.48y original   ramp=0.301000 barrier=0.007774791 curvature=-5.480100
+v18.48y original   ramp=0.302000 barrier=0.007294113 curvature=-5.482400
+v18.48y original   ramp=0.303000 barrier=0.006812143 curvature=-5.484020
+v18.48y original   ramp=0.304000 barrier=0.006328947 curvature=-5.484759
+v18.48y original   ramp=0.305000 barrier=0.005844610 curvature=-5.484328
+v18.48y original   ramp=0.307000 barrier=0.004873033 curvature=-5.478023
+v18.48y original   ramp=0.309000 barrier=0.003899109 curvature=-5.457871
+v18.48y original   ramp=0.312000 barrier=0.002444294 curvature=-5.342379
+v18.48y autonomous ramp=0.280000 barrier=0.017615207 curvature=-5.377313
+v18.48y autonomous ramp=0.285000 barrier=0.015355667 curvature=-5.406799
+v18.48y autonomous ramp=0.290000 barrier=0.013057737 curvature=-5.434169
+v18.48y autonomous ramp=0.292000 barrier=0.012127901 curvature=-5.444380
+v18.48y autonomous ramp=0.294000 barrier=0.011192032 curvature=-5.454057
+v18.48y autonomous ramp=0.295000 barrier=0.010721855 curvature=-5.458660
+v18.48y autonomous ramp=0.296000 barrier=0.010250196 curvature=-5.463078
+v18.48y autonomous ramp=0.296250 barrier=0.010132051 curvature=-5.464151
+v18.48y autonomous ramp=0.296333 barrier=0.010092807 curvature=-5.464504
+v18.48y autonomous ramp=0.296500 barrier=0.010013815 curvature=-5.465210
+v18.48y autonomous ramp=0.296530 barrier=0.009999620 curvature=-5.465337
+v18.48y autonomous ramp=0.297000 barrier=0.009777067 curvature=-5.467286
+v18.48y autonomous ramp=0.298000 barrier=0.009302484 curvature=-5.471251
+v18.48y autonomous ramp=0.299000 barrier=0.008826465 curvature=-5.474929
+v18.48y autonomous ramp=0.300000 barrier=0.008349032 curvature=-5.478266
+v18.48y autonomous ramp=0.301000 barrier=0.007870215 curvature=-5.481187
+v18.48y autonomous ramp=0.302000 barrier=0.007390050 curvature=-5.483596
+v18.48y autonomous ramp=0.303000 barrier=0.006908583 curvature=-5.485357
+v18.48y autonomous ramp=0.304000 barrier=0.006425875 curvature=-5.486283
+v18.48y autonomous ramp=0.305000 barrier=0.005942007 curvature=-5.486105
+v18.48y autonomous ramp=0.307000 barrier=0.004971278 curvature=-5.480661
+v18.48y autonomous ramp=0.309000 barrier=0.003997965 curvature=-5.462454
+v18.48y autonomous ramp=0.312000 barrier=0.002542609 curvature=-5.359114
+{
+  "integrations": 48,
+  "threshold_brackets": 14,
+  "max_profile_regression": 0.0,
+  "max_ledger_relative_error": 2.8774930355135453e-10,
+  "max_curvature_step_variation": 9.103344466380063e-06
+}
+PASS v18.48y full Q550 numerical gates: 48 IVPs, 46 contact profiles, 14 threshold brackets, curvature and ledger.
+PASS projected lobe-gap quadratic check: 12 pairs, max relative deviation 0.0343717%
+Rendered 5 numerical figures strictly from verified Q550 CSV results
+Packed v18.48y: 34 SHA-256 files, original ancestry and exact executed Python; ZIP SHA256=7134cbc160e07f3383151e02fecccb53fcdb3549a61cf4b5f11ea38b102846ec
